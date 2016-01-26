@@ -1,0 +1,9530 @@
+@prefix : <http://www.ecnu.ica.com/ditital#> .
+@prefix j.0: <http://www.ecnu.ica.com/ditital#3> .
+@prefix j.1: <http://www.ecnu.ica.com/ditital#DVD+> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.ecnu.ica.com/ditital> .
+
+<http://www.ecnu.ica.com/ditital> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.ecnu.ica.com/ditital#CPU型号
+
+:CPU型号 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#主_北桥芯片
+
+:主_北桥芯片 rdf:type owl:ObjectProperty .
+
+###  http://www.ecnu.ica.com/ditital#isA
+
+:isA rdf:type owl:ObjectProperty .
+
+
+###  http://www.ecnu.ica.com/ditital#主控
+
+:主控 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#主板
+
+:主板 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#南桥芯片
+
+:南桥芯片 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#品牌
+
+:品牌 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#处理器
+
+:处理器 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#磁盘阵列卡
+
+:磁盘阵列卡 rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#采用芯片
+
+:采用芯片 rdf:type owl:ObjectProperty .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.ecnu.ica.com/ditital#12V辅助供电接口
+
+<http://www.ecnu.ica.com/ditital#12V辅助供电接口> rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#3G类型
+
+j.0:G类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#3G视频通话
+
+j.0:G视频通话 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#3G资费卡兼容类型
+
+j.0:G资费卡兼容类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#6pinPCI-E接口
+
+<http://www.ecnu.ica.com/ditital#6pinPCI-E接口> rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#8pinPCI-E接口
+
+<http://www.ecnu.ica.com/ditital#8pinPCI-E接口> rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#A-B复读
+
+:A-B复读 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#BD-RE_Dual
+
+:BD-RE_Dual rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#BD-RE_Single
+
+:BD-RE_Single rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#BD-RLTH
+
+:BD-RLTH rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#BD-ROM_BD9
+
+:BD-ROM_BD9 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#BD-ROM_Dual
+
+:BD-ROM_Dual rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#BD-ROM_SL
+
+:BD-ROM_SL rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#BD-R_Dual
+
+:BD-R_Dual rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#BD-R_Single
+
+:BD-R_Single rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#BD-XL
+
+:BD-XL rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#BIOS语言
+
+:BIOS语言 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CD-R
+
+:CD-R rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CD-ROM
+
+:CD-ROM rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CD-RW
+
+:CD-RW rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CL值
+
+:CL值 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#COM
+
+:COM rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#COM扩展接口
+
+:COM扩展接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CPU
+
+:CPU rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CPU12V供电接口
+
+:CPU12V供电接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CPU散热器限高
+
+:CPU散热器限高 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CPU核心数量
+
+:CPU核心数量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CPU类型
+
+:CPU类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CPU缓存
+
+:CPU缓存 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CPU速度
+
+:CPU速度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CPU频率
+
+:CPU频率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CPU风扇插座组数
+
+:CPU风扇插座组数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DP接口个数
+
+:DP接口个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DVD+R
+
+j.1:R rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DVD+RW
+
+j.1:RW rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DVD+R_DL
+
+j.1:R_DL rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DVD-R
+
+:DVD-R rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DVD-RAM
+
+:DVD-RAM rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DVD-ROM_Dual
+
+:DVD-ROM_Dual rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DVD-ROM_Single
+
+:DVD-ROM_Single rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DVD-RW
+
+:DVD-RW rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DVD-R_DL
+
+:DVD-R_DL rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DVI接口个数
+
+:DVI接口个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#DirectX版本
+
+:DirectX版本 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#D型4pin接口
+
+:D型4pin接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#D型口数量
+
+:D型口数量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#ESATA接口
+
+:ESATA接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#FM功能
+
+:FM功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#FSB_前端总线
+
+:FSB_前端总线 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#Flash播放
+
+:Flash播放 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#GPS导航
+
+:GPS导航 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#GPS模块
+
+:GPS模块 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#GPU
+
+:GPU rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#HDCP功能
+
+:HDCP功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#HDMI个数
+
+:HDMI个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#HDMI接口个数
+
+:HDMI接口个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#IDE接口
+
+:IDE接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#IEEE1394扩展接口
+
+:IEEE1394扩展接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#IO接口
+
+:IO接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#LED
+
+:LED rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#LED指示灯
+
+:LED指示灯 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#LPT扩展接口
+
+:LPT扩展接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#LPT接口
+
+:LPT接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#Lan口数量
+
+:Lan口数量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#MINI-DP接口个数
+
+:MINI-DP接口个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#MINI-HDMI个数
+
+:MINI-HDMI个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#Note
+
+:Note rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#OpenGL版本
+
+:OpenGL版本 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PCB规格
+
+:PCB规格 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PCI-E
+
+:PCI-E rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PCIExpressx16个数
+
+:PCIExpressx16个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PCIExpressx1个数
+
+:PCIExpressx1个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PCIExpressx4个数
+
+:PCIExpressx4个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PCIExpressx8个数
+
+:PCIExpressx8个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PCI插槽个数
+
+:PCI插槽个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PCI槽_空闲_总数
+
+:PCI槽_空闲_总数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PC端接口
+
+:PC端接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PFC
+
+:PFC rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PPI
+
+:PPI rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#PS2
+
+:PS2 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#Qos限速功能
+
+:Qos限速功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#RJ-45网口
+
+:RJ-45网口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#SATA接口
+
+:SATA接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#SATA接口个数
+
+:SATA接口个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#SATA接口范围
+
+:SATA接口范围 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#SIM卡尺寸
+
+:SIM卡尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#S_PDIF同轴接口
+
+:S_PDIF同轴接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#S_PDIF插座个数
+
+:S_PDIF插座个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#S端子
+
+:S端子 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#TRIM
+
+:TRIM rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#TXxRX
+
+:TXxRX rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#USB2.0接口个数
+
+:USB2.0接口个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#USB3.0接口个数
+
+:USB3.0接口个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#USB扩展接口
+
+:USB扩展接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#USB接口
+
+:USB接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#USB界面
+
+:USB界面 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#USB端口
+
+:USB端口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#VGA接口
+
+:VGA接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#WIFI功能
+
+:WIFI功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#Wan口数量
+
+:Wan口数量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#Wan口数量_无线路由
+
+:Wan口数量_无线路由 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#Wan口数量_有线路由
+
+:Wan口数量_有线路由 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#mac地址列表
+
+:mac地址列表 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#usb2.0
+
+:usb2.0 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#usb3.0
+
+:usb3.0 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#三级缓存
+
+:三级缓存 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#三通道支持
+
+:三通道支持 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#上市时间
+
+:上市时间 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#上行最大支持
+
+:上行最大支持 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#下行最大支持
+
+:下行最大支持 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#主频
+
+:主频 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#二级缓存
+
+:二级缓存 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品功能
+
+:产品功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品名称
+
+:产品名称 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品型号
+
+:产品型号 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品尺寸
+
+:产品尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品应用
+
+:产品应用 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品总长
+
+:产品总长 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品描述
+
+:产品描述 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品材质
+
+:产品材质 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品特点
+
+:产品特点 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品特色
+
+:产品特色 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品界面
+
+:产品界面 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品类别
+
+:产品类别 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品类型
+
+:产品类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品芯片
+
+:产品芯片 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品规格
+
+:产品规格 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品认证
+
+:产品认证 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品输出
+
+:产品输出 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品重量
+
+:产品重量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品长度
+
+:产品长度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品颜色
+
+:产品颜色 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#产品风叶
+
+:产品风叶 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#亮度
+
+:亮度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#人体工学
+
+:人体工学 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#价格
+
+:价格 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#传感器
+
+:传感器 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#传感器类型
+
+:传感器类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#传输接口
+
+:传输接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#传输方式
+
+:传输方式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#传输标准
+
+:传输标准 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#传输距离
+
+:传输距离 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#传输频段
+
+:传输频段 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#低音调节
+
+:低音调节 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#供电
+
+:供电 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#保护套材质
+
+:保护套材质 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#信噪比
+
+:信噪比 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#储存温度
+
+:储存温度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#储存湿度
+
+:储存湿度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#像素
+
+:像素 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#充电器输入
+
+:充电器输入 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#充电器输出
+
+:充电器输出 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#充电电流
+
+:充电电流 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#光纤接口
+
+:光纤接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#光线感应
+
+:光线感应 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#光驱
+
+:光驱 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#光驱位
+
+:光驱位 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#光驱位数量
+
+:光驱位数量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#光驱类型
+
+:光驱类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#光驱音源输入插座
+
+:光驱音源输入插座 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#其他
+
+:其他 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#其他功能
+
+:其他功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#其他接口
+
+:其他接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#其他特性
+
+:其他特性 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#其他端口
+
+:其他端口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#其它
+
+:其它 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#其它接口
+
+:其它接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#其它插座
+
+:其它插座 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#兼容操作系统
+
+:兼容操作系统 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#兼容系列
+
+:兼容系列 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#兼容系统
+
+:兼容系统 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内存容量
+
+:内存容量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内存插槽个数
+
+:内存插槽个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内存标准
+
+:内存标准 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内建GPU
+
+:内建GPU rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内置3G
+
+:内置3G rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内置3G模块
+
+:内置3G模块 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内置4G
+
+:内置4G rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内置感应
+
+:内置感应 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内置游戏
+
+:内置游戏 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内置蓝牙
+
+:内置蓝牙 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内置软件
+
+:内置软件 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内置音箱
+
+:内置音箱 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内置音频接口
+
+:内置音频接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内部尺寸
+
+:内部尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内部线长
+
+:内部线长 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#净重
+
+:净重 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#分辨率
+
+:分辨率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#制式
+
+:制式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#前段总线_HT总线
+
+:前段总线_HT总线 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#前置摄像头
+
+:前置摄像头 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#副摄像头
+
+:副摄像头 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#功率
+
+:功率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#功率范围
+
+:功率范围 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#功耗
+
+:功耗 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#协议标准
+
+:协议标准 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#单盘容量
+
+:单盘容量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#双显卡
+
+:双显卡 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#双通道支持
+
+:双通道支持 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#发射功率
+
+:发射功率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#变焦模式
+
+:变焦模式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#可视角度
+
+:可视角度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#可选颜色
+
+:可选颜色 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#名称
+
+:名称 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#后置摄像头
+
+:后置摄像头 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#启动功率
+
+:启动功率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#启动电流
+
+:启动电流 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#品牌
+
+:品牌 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#品牌兼容接口
+
+:品牌兼容接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#品类
+
+:品类 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#响应时间
+
+:响应时间 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#响应范围
+
+:响应范围 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#商品型号
+
+:商品型号 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#商品尺寸
+
+:商品尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#商品重量
+
+:商品重量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#噪音
+
+:噪音 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#固态硬盘
+
+:固态硬盘 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#图形卡
+
+:图形卡 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#型号
+
+:型号 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#壁挂规格
+
+:壁挂规格 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#声卡特色
+
+:声卡特色 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#声卡类型
+
+:声卡类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#声道支持
+
+:声道支持 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#声道数
+
+:声道数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#处理器描述
+
+:处理器描述 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#备注
+
+:备注 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#外壳材质
+
+:外壳材质 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#外接扩展卡
+
+:外接扩展卡 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#外放功能
+
+:外放功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#外置天线
+
+:外置天线 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#外观尺寸
+
+:外观尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#外观设计
+
+:外观设计 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#外观颜色
+
+:外观颜色 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#外部输出接口
+
+:外部输出接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#多点触控
+
+:多点触控 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#天线可拆卸
+
+:天线可拆卸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#天线增益
+
+:天线增益 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#天线类型
+
+:天线类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#字幕
+
+:字幕 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#存储卡
+
+:存储卡 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#存储卡类型
+
+:存储卡类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#存储容量
+
+:存储容量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#安全标准
+
+:安全标准 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#安全特性
+
+:安全特性 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#安全认证
+
+:安全认证 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#实用功能
+
+:实用功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#容量
+
+:容量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#宽屏
+
+:宽屏 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#对比度
+
+:对比度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#导风管
+
+:导风管 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#尺寸
+
+:尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#尺寸范围
+
+:尺寸范围 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#局域网
+
+:局域网 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#屏幕分辨率
+
+:屏幕分辨率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#屏幕尺寸
+
+:屏幕尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#屏幕描述
+
+:屏幕描述 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#屏幕材质
+
+:屏幕材质 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#屏幕比例
+
+:屏幕比例 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#屏幕类型
+
+:屏幕类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#屏幕色彩
+
+:屏幕色彩 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#屏幕规格
+
+:屏幕规格 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#峰值
+
+:峰值 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#嵌入式网络控制器
+
+:嵌入式网络控制器 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#工作信道
+
+:工作信道 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#工作温度
+
+:工作温度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#工作湿度
+
+:工作湿度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#工作环境
+
+:工作环境 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#工作电压
+
+:工作电压 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#平台类型
+
+:平台类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#平均寻道时间
+
+:平均寻道时间 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#应用设备
+
+:应用设备 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#底座
+
+:底座 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#建议电源
+
+:建议电源 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#录音
+
+:录音 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#彩信功能
+
+:彩信功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#待机时间
+
+:待机时间 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#总线兼容性
+
+:总线兼容性 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#感应区尺寸
+
+:感应区尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#感应方式
+
+:感应方式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#扇叶直径
+
+:扇叶直径 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#扩展槽
+
+:扩展槽 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#扫描范围
+
+:扫描范围 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#扫描速度
+
+:扫描速度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#扬声器
+
+:扬声器 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#技术规格
+
+:技术规格 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#投影方式
+
+:投影方式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#拍摄场景
+
+:拍摄场景 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#拍摄模式
+
+:拍摄模式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#指取设备
+
+:指取设备 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#指点杆
+
+:指点杆 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#指纹识别
+
+:指纹识别 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#按键数
+
+:按键数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#捕获幅面
+
+:捕获幅面 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#接口数
+
+:接口数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#接口类型
+
+:接口类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#接类别
+
+:接类别 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#推荐用途
+
+:推荐用途 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#描述
+
+:描述 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#插孔数量
+
+:插孔数量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#摄像头
+
+:摄像头 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#摄像头像素
+
+:摄像头像素 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#操作环境
+
+:操作环境 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持CPU个数
+
+:支持CPU个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持WPS
+
+:支持WPS rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持业务
+
+:支持业务 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持产品
+
+:支持产品 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持区域
+
+:支持区域 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持存储卡
+
+:支持存储卡 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持宽幅
+
+:支持宽幅 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持温控
+
+:支持温控 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持电脑
+
+:支持电脑 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持的显示输出接口
+
+:支持的显示输出接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持硬盘
+
+:支持硬盘 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持系统
+
+:支持系统 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持网络
+
+:支持网络 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#支持设备
+
+:支持设备 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#效率
+
+:效率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#散热器
+
+:散热器 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#散热器尺寸
+
+:散热器尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#散热器类型
+
+:散热器类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#散热方式
+
+:散热方式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#散热片尺寸
+
+:散热片尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#散热片材质
+
+:散热片材质 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#散热系统
+
+:散热系统 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#数据业务
+
+:数据业务 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#数据传输率
+
+:数据传输率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#数据查看
+
+:数据查看 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#数据线
+
+:数据线 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#文件操作
+
+:文件操作 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#文件系统
+
+:文件系统 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#无线传输率
+
+:无线传输率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#无线可拆卸
+
+:无线可拆卸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#无线局域网
+
+:无线局域网 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#无线桥接
+
+:无线桥接 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#既插既用
+
+:既插既用 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#时序
+
+:时序 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否RAID支持
+
+:是否RAID支持 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否SSD
+
+:是否SSD rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否内置3g模块
+
+:是否内置3g模块 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否内置麦克风
+
+:是否内置麦克风 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否外接供电
+
+:是否外接供电 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否支持交火
+
+:是否支持交火 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否支持四通道支持
+
+:是否支持四通道支持 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否支持壁挂
+
+:是否支持壁挂 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否支持显存共享
+
+:是否支持显存共享 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否支持磁盘阵列
+
+:是否支持磁盘阵列 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否有HDMI接口
+
+:是否有HDMI接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否有散热片
+
+:是否有散热片 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否有蓝牙
+
+:是否有蓝牙 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否有集成显卡
+
+:是否有集成显卡 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#是否集成无线网卡
+
+:是否集成无线网卡 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显卡最大长度
+
+:显卡最大长度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显卡特性
+
+:显卡特性 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显卡类型
+
+:显卡类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显存位宽
+
+:显存位宽 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显存容量
+
+:显存容量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显存类型
+
+:显存类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显存规格
+
+:显存规格 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显存频率
+
+:显存频率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显示器
+
+:显示器 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显示屏幕
+
+:显示屏幕 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显示比例
+
+:显示比例 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显示端口
+
+:显示端口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显示芯片
+
+:显示芯片 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显示输出接口
+
+:显示输出接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#智能机
+
+:智能机 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#最佳分辨率
+
+:最佳分辨率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#最大内存容量
+
+:最大内存容量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#最大写入速度
+
+:最大写入速度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#最大分辨率
+
+:最大分辨率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#最大存储扩展
+
+:最大存储扩展 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#最大帧数
+
+:最大帧数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#最大支持
+
+:最大支持 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#最大网络速度
+
+:最大网络速度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#最大读取速度
+
+:最大读取速度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#有无IDE
+
+:有无IDE rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#本机存储
+
+:本机存储 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#机箱类型
+
+:机箱类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#机身内存
+
+:机身内存 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#机身材质
+
+:机身材质 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#机身重量
+
+:机身重量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#材质
+
+:材质 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#杜比音效
+
+:杜比音效 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#板型大小
+
+:板型大小 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#板型结构
+
+:板型结构 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#板材厚度
+
+:板材厚度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#标配电源
+
+:标配电源 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#标配硬盘
+
+:标配硬盘 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#核心代号
+
+:核心代号 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#核心品牌
+
+:核心品牌 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#核心型号
+
+:核心型号 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#核心频率
+
+:核心频率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#模式
+
+:模式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#流处理单元
+
+:流处理单元 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#浏览器支持
+
+:浏览器支持 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#消耗功率
+
+:消耗功率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#点距
+
+:点距 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#热插拔
+
+:热插拔 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#热插拨
+
+:热插拨 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#照片分辨率
+
+:照片分辨率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#物理介质
+
+:物理介质 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#物理分辨率
+
+:物理分辨率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#特征
+
+:特征 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#特性描述
+
+:特性描述 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#特殊说明
+
+:特殊说明 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#特点
+
+:特点 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#独家特色
+
+:独家特色 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#独特功能
+
+:独特功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#独特设计
+
+:独特设计 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#理论功率
+
+:理论功率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#理论视频回放时间
+
+:理论视频回放时间 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#理论通话时间
+
+:理论通话时间 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#理论音频回放时间
+
+:理论音频回放时间 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#用户界面
+
+:用户界面 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#用范围
+
+:用范围 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电压
+
+:电压 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电子书
+
+:电子书 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电子书阅读
+
+:电子书阅读 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电影播放
+
+:电影播放 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电池
+
+:电池 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电池容量
+
+:电池容量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电池类型
+
+:电池类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电源
+
+:电源 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电源功率
+
+:电源功率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电源参数
+
+:电源参数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电源接口
+
+:电源接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电源支持
+
+:电源支持 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电源类型
+
+:电源类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电源线长
+
+:电源线长 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电源适配器
+
+:电源适配器 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电芯类型
+
+:电芯类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电视播放
+
+:电视播放 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电路保护
+
+:电路保护 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#画面浏览
+
+:画面浏览 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#界面
+
+:界面 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#盘位数
+
+:盘位数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#相关配件
+
+:相关配件 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#硬体监控
+
+:硬体监控 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#硬盘
+
+:硬盘 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#硬盘位数量
+
+:硬盘位数量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#硬盘厚度
+
+:硬盘厚度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#硬盘容量
+
+:硬盘容量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#硬盘尺寸
+
+:硬盘尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#硬盘接口
+
+:硬盘接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#硬盘类型
+
+:硬盘类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#磁盘阵列
+
+:磁盘阵列 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#种类
+
+:种类 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#程序
+
+:程序 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#端口
+
+:端口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#管理
+
+:管理 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#类别
+
+:类别 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#类型
+
+:类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#系列
+
+:系列 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#系统内存
+
+:系统内存 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#系统总线
+
+:系统总线 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#系统支持
+
+:系统支持 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#系统特性
+
+:系统特性 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#系统风扇插座组数
+
+:系统风扇插座组数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#红外
+
+:红外 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#线控功能
+
+:线控功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#线材名称
+
+:线材名称 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#线材编号
+
+:线材编号 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#线材规格
+
+:线材规格 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#线材长度
+
+:线材长度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#线材颜色
+
+:线材颜色 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#线身规格
+
+:线身规格 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#线长
+
+:线长 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#结构
+
+:结构 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#续航时间
+
+:续航时间 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#缓存
+
+:缓存 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网卡类型
+
+:网卡类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网口_RJ45
+
+:网口_RJ45 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网口速率
+
+:网口速率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络制式
+
+:网络制式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络协议
+
+:网络协议 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络唤醒
+
+:网络唤醒 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络摄像头
+
+:网络摄像头 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络标准
+
+:网络标准 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络模式
+
+:网络模式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络类型
+
+:网络类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络频率
+
+:网络频率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#耳机
+
+:耳机 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#腕托
+
+:腕托 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#自动对焦
+
+:自动对焦 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#色彩
+
+:色彩 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#色数
+
+:色数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#芯片备注
+
+:芯片备注 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#芯片组
+
+:芯片组 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#菜单语言
+
+:菜单语言 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#蓝牙功能
+
+:蓝牙功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#蓝牙版本
+
+:蓝牙版本 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#规格尺寸
+
+:规格尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#视像解像度_分辨率
+
+:视像解像度_分辨率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#视频拍摄
+
+:视频拍摄 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#视频接口
+
+:视频接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#视频播放格式
+
+:视频播放格式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#触摸
+
+:触摸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#触摸屏
+
+:触摸屏 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#触摸屏类型
+
+:触摸屏类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#触摸板
+
+:触摸板 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#计算器
+
+:计算器 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#认证
+
+:认证 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#语言
+
+:语言 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#语音
+
+:语音 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#读写速度
+
+:读写速度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#读卡器
+
+:读卡器 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#读卡方式
+
+:读卡方式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#调制解调器modem
+
+:调制解调器modem rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#负载功率
+
+:负载功率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#资费类型
+
+:资费类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#輸出介面
+
+:輸出介面 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#转速
+
+:转速 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#软驱位
+
+:软驱位 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#输入接口
+
+:输入接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#输入方式
+
+:输入方式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#输入电压
+
+:输入电压 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#输入电流
+
+:输入电流 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#输出分辨率
+
+:输出分辨率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#输出功率
+
+:输出功率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#输出电压
+
+:输出电压 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#输出电流
+
+:输出电流 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#输出线长度
+
+:输出线长度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#运营商
+
+:运营商 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#运营商标志或内容
+
+:运营商标志或内容 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#运行内存
+
+:运行内存 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#连拍功能
+
+:连拍功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#连接方式
+
+:连接方式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#适用型号
+
+:适用型号 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#适用尺寸
+
+:适用尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#适用硬盘
+
+:适用硬盘 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#适用范围
+
+:适用范围 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#通话功能
+
+:通话功能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#速度
+
+:速度 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#遥控器
+
+:遥控器 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#遵循标准
+
+:遵循标准 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#配件
+
+:配件 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#采样率与分辨率
+
+:采样率与分辨率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#重力感应
+
+:重力感应 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#重量
+
+:重量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#铃音类型
+
+:铃音类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#键盘类型
+
+:键盘类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#键轴
+
+:键轴 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#闪光灯
+
+:闪光灯 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#闪存类型
+
+:闪存类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#闹钟
+
+:闹钟 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#阻抗
+
+:阻抗 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#附赠软件
+
+:附赠软件 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#随机系统
+
+:随机系统 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#集成显卡
+
+:集成显卡 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#面板尺寸
+
+:面板尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#面板接口
+
+:面板接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#面板类型
+
+:面板类型 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#面部识别
+
+:面部识别 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#音乐播放
+
+:音乐播放 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#音效性能
+
+:音效性能 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#音效模式
+
+:音效模式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#音箱
+
+:音箱 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#音箱控制
+
+:音箱控制 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#音频接口
+
+:音频接口 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#音频接口个数
+
+:音频接口个数 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#音频播放格式
+
+:音频播放格式 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#频响范围
+
+:频响范围 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#颗粒
+
+:颗粒 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#颜色
+
+:颜色 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#额定功率
+
+:额定功率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#额定容量
+
+:额定容量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#额定电压
+
+:额定电压 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#额定电流
+
+:额定电流 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#额定输入
+
+:额定输入 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#额定输出
+
+:额定输出 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#风扇
+
+:风扇 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#风扇位
+
+:风扇位 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#风扇尺寸
+
+:风扇尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#风扇调速
+
+:风扇调速 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#风扇转速_RPM
+
+:风扇转速_RPM rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#风量
+
+:风量 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#驱动
+
+:驱动 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#驱动软件
+
+:驱动软件 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#麦克风
+
+:麦克风 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#鼠标
+
+:鼠标 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#鼠标分辨率
+
+:鼠标分辨率 rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.ecnu.ica.com/ditital#鼠标尺寸
+
+:鼠标尺寸 rdf:type owl:DatatypeProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.ecnu.ica.com/ditital#4G3G上网卡
+
+<http://www.ecnu.ica.com/ditital#4G3G上网卡> rdf:type owl:Class ;
+                                          
+                                          rdfs:subClassOf :网络产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CPU
+
+:CPU rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#CPU型号
+
+:CPU型号 rdf:type owl:Class ;
+       
+       rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#SSD固态硬盘
+
+:SSD固态硬盘 rdf:type owl:Class ;
+         
+         rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#UPS电源
+
+:UPS电源 rdf:type owl:Class ;
+       
+       rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#U盘
+
+:U盘 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#主_北桥芯片
+
+:主_北桥芯片 rdf:type owl:Class ;
+        
+        rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#主控
+
+:主控 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#主板
+
+:主板 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#交换机
+
+:交换机 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :网络产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#光驱
+
+:光驱 rdf:type owl:Class ;
+    
+    owl:equivalentClass :刻录机 ;
+    
+    rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#内存
+
+:内存 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#刻录机
+
+:刻录机 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#办公设备
+
+:办公设备 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :数码产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#南桥芯片
+
+:南桥芯片 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#台式机
+
+:台式机 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑 ;
+     
+     owl:disjointWith :笔记本 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#品牌
+
+:品牌 rdf:type owl:Class .
+
+
+
+###  http://www.ecnu.ica.com/ditital#声卡/扩展卡
+
+<http://www.ecnu.ica.com/ditital#声卡/扩展卡> rdf:type owl:Class ;
+                                         
+                                         rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#处理器
+
+:处理器 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#外置盒
+
+:外置盒 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#家用游戏机
+
+:家用游戏机 rdf:type owl:Class ;
+       
+       rdfs:subClassOf :电玩 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#工作站
+
+:工作站 rdf:type owl:Class ;
+     
+     owl:equivalentClass :服务站 ;
+     
+     rdfs:subClassOf :电脑 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#平板电脑
+
+:平板电脑 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :数码产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#平板电脑配件
+
+:平板电脑配件 rdf:type owl:Class ;
+        
+        rdfs:subClassOf :数码产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#手写板
+
+:手写板 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#掌机
+
+:掌机 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电玩 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#插座
+
+:插座 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#摄像头
+
+:摄像头 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#散热器
+
+:散热器 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#数码产品
+
+:数码产品 rdf:type owl:Class .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显卡
+
+:显卡 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#显示器
+
+:显示器 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#服务站
+
+:服务站 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#机箱
+
+:机箱 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#游戏周边
+
+:游戏周边 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :电玩 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电源
+
+:电源 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电玩
+
+:电玩 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电脑
+
+:电脑 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :数码产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电脑外设
+
+:电脑外设 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :数码产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电脑工具
+
+:电脑工具 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电脑清洁
+
+:电脑清洁 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#电脑配件
+
+:电脑配件 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :数码产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#硬盘
+
+:硬盘 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#磁盘阵列卡
+
+:磁盘阵列卡 rdf:type owl:Class ;
+       
+       rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#移动硬盘
+
+:移动硬盘 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#笔记本
+
+:笔记本 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#笔记本配件
+
+:笔记本配件 rdf:type owl:Class ;
+       
+       rdfs:subClassOf :数码产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#线缆
+
+:线缆 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#组装电脑
+
+:组装电脑 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网卡
+
+:网卡 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络产品
+
+:网络产品 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :数码产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络存储
+
+:网络存储 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :网络产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络盒子
+
+:网络盒子 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :网络产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网络配件
+
+:网络配件 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :网络产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#装机配件
+
+:装机配件 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#路由器
+
+:路由器 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :网络产品 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#采用芯片
+
+:采用芯片 rdf:type owl:Class ;
+      
+      rdfs:subClassOf :电脑配件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#键盘
+
+:键盘 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#鼠标
+
+:鼠标 rdf:type owl:Class ;
+    
+    rdfs:subClassOf :电脑外设 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#鼠标垫
+
+:鼠标垫 rdf:type owl:Class ;
+     
+     rdfs:subClassOf :电脑外设 .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://www.ecnu.ica.com/ditital#A7
+
+:A7 rdf:type :处理器 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#AMD
+
+:AMD rdf:type :主_北桥芯片 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#ARM
+
+:ARM rdf:type :处理器 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#ATX
+
+:ATX rdf:type :主板 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#ATX,
+
+<http://www.ecnu.ica.com/ditital#ATX,> rdf:type :主板 ,
+                                                owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#ATX,M-ATX
+
+<http://www.ecnu.ica.com/ditital#ATX,M-ATX> rdf:type :主板 ,
+                                                     owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#EVGA
+
+:EVGA rdf:type :品牌 ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#EVGAGT7401GBFTWGDDR5
+
+:EVGAGT7401GBFTWGDDR5 rdf:type :显卡 ,
+                               owl:NamedIndividual ;
+                      
+                      :CPU核心数量 "null" ;
+                      
+                      :建议电源 "400W以上" ;
+                      
+                      :电源接口 "6pin" ;
+                      
+                      :核心频率 "1.202ghz" ;
+                      
+                      :型号 "GT740" ;
+                      
+                      :DP接口个数 "0" ;
+                      
+                      :S端子 "不支持" ;
+                      
+                      :尺寸 "H-111.15mm,L-152.4mm" ;
+                      
+                      :VGA接口 "0" ;
+                      
+                      :DVI接口个数 "1" ;
+                      
+                      :HDMI接口个数 "1" ;
+                      
+                      :显存位宽 "128" ;
+                      
+                      :核心品牌 "NVIDIA" ;
+                      
+                      :规格尺寸 "null" ;
+                      
+                      :接口类型 "null" ;
+                      
+                      :核心型号 "GeForce" ;
+                      
+                      :显存频率 "5.0ghz" ;
+                      
+                      :显存容量 "1024.0mb" ;
+                      
+                      :流处理单元 "384" ;
+                      
+                      :显存类型 "gddr5" ;
+                      
+                      :品牌 :EVGA .
+
+
+
+###  http://www.ecnu.ica.com/ditital#EVGAGTXTITANZ12GRef.
+
+:EVGAGTXTITANZ12GRef rdf:type :显卡 ,
+                               owl:NamedIndividual ;
+                      
+                      :CPU核心数量 "null" ;
+                      
+                      :S端子 "不支持" ;
+                      
+                      :核心频率 "null" ;
+                      
+                      :DP接口个数 "1" ;
+                      
+                      :核心型号 "GeForce" ;
+                      
+                      :尺寸 "H：111.15mm," ;
+                      
+                      :显存容量 "12288.0mb" ;
+                      
+                      :HDMI接口个数 "1" ;
+                      
+                      :显存频率 "7.0ghz" ;
+                      
+                      :显存类型 "gddr5" ;
+                      
+                      :显存位宽 "768" ;
+                      
+                      :散热器类型 "风冷" ;
+                      
+                      :接口类型 "null" ;
+                      
+                      :建议电源 "700W以上" ;
+                      
+                      :规格尺寸 "null" ;
+                      
+                      :电源接口 "8pin+8pin" ;
+                      
+                      :流处理单元 "5760" ;
+                      
+                      :DVI接口个数 "1" ;
+                      
+                      :VGA接口 "0" ;
+                      
+                      :型号 "GTX" ;
+                      
+                      :核心品牌 "NVIDIA" ;
+                      
+                      :品牌 :EVGA .
+
+
+
+###  http://www.ecnu.ica.com/ditital#G1820T
+
+:G1820T rdf:type :CPU型号 ,
+                 owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#G3250
+
+:G3250 rdf:type :CPU型号 ,
+                owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#HIS
+
+:HIS rdf:type :品牌 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#HISH240F4G
+
+:HISH240F4G rdf:type :显卡 ,
+                     owl:NamedIndividual ;
+            
+            :HDMI接口个数 "1" ;
+            
+            :VGA接口 "1" ;
+            
+            :显存位宽 "128-bit" ;
+            
+            :接口类型 "null" ;
+            
+            :是否外接供电 "不支持" ;
+            
+            :DVI接口个数 "1" ;
+            
+            :CPU核心数量 "null" ;
+            
+            :风扇调速 "支持" ;
+            
+            :流处理单元 "320" ;
+            
+            :规格尺寸 "null" ;
+            
+            :最大分辨率 "4096*2160" ;
+            
+            :显存类型 "ddr3" ;
+            
+            :显存频率 "Up" ;
+            
+            :HDCP功能 "支持" ;
+            
+            :核心品牌 "AMD" ;
+            
+            :型号 "H240F4G" ;
+            
+            :建议电源 "400瓦或以上的电源" ;
+            
+            :尺寸 "17.2" ;
+            
+            :散热器类型 "风冷" ;
+            
+            :核心型号 "R7" ;
+            
+            :核心频率 "Up" ;
+            
+            :显存容量 "4096.0mb" ;
+            
+            :品牌 :HIS .
+
+
+
+###  http://www.ecnu.ica.com/ditital#IT-CEO
+
+:IT-CEO rdf:type :品牌 ,
+                 owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#IT-CEOL-600
+
+:IT-CEOL-600 rdf:type :外置盒 ,
+                      owl:NamedIndividual ;
+             
+             :材质 "铝合金" ;
+             
+             :适用尺寸 "2.5寸" ;
+             
+             :尺寸 "120x77x13MM" ;
+             
+             :硬盘接口 "SATA接口" ;
+             
+             :产品规格 "null" ;
+             
+             :颜色 "[\"银\"]" ;
+             
+             :电源 "电脑自供电" ;
+             
+             :外部输出接口 "USB3.0" ;
+             
+             :型号 "L-600" ;
+             
+             :重量 "60.0g" ;
+             
+             :类型 "移动硬盘盒" ;
+             
+             :其他特性 "USB" ;
+             
+             :品牌 :IT-CEO .
+
+
+
+###  http://www.ecnu.ica.com/ditital#IT-CEOL-602
+
+:IT-CEOL-602 rdf:type :装机配件 ,
+                      owl:NamedIndividual ;
+             
+             :类型 "无螺丝安装" ;
+             
+             :产品规格 "null" ;
+             
+             :电源 "电脑USB供电" ;
+             
+             :其他特性 "便携" ;
+             
+             :适用尺寸 "2.5寸" ;
+             
+             :颜色 "[\"蓝\"]" ;
+             
+             :尺寸 "2.5英寸硬盘通用" ;
+             
+             :硬盘接口 "IDE接口" ;
+             
+             :型号 "L-602" ;
+             
+             :外部输出接口 "USB2.0" ;
+             
+             :材质 "高级PU材质" ;
+             
+             :品牌 :IT-CEO .
+
+
+
+###  http://www.ecnu.ica.com/ditital#Intel
+
+:Intel rdf:type :处理器 ,
+                owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#J1900
+
+:J1900 rdf:type :CPU型号 ,
+                owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#JIB/德国蟒蛇
+
+<http://www.ecnu.ica.com/ditital#JIB/德国蟒蛇> rdf:type :品牌 ,
+                                                    owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#JUJU
+
+:JUJU rdf:type :品牌 ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#KOIOS
+
+:KOIOS rdf:type :品牌 ,
+                owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#Marvell
+
+:Marvell rdf:type :主控 ,
+                  owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#ORICO
+
+:ORICO rdf:type :品牌 ,
+                owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#SAMA
+
+:SAMA rdf:type :品牌 ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#SATA
+
+:SATA rdf:type :磁盘阵列卡 ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#SMI
+
+:SMI rdf:type :主控 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#SanDisk
+
+:SanDisk rdf:type :品牌 ,
+                  owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#TP-LINK
+
+:TP-LINK rdf:type :品牌 ,
+                  owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#TP-LINKTL-R478+
+
+<http://www.ecnu.ica.com/ditital#TP-LINKTL-R478+> rdf:type :路由器 ,
+                                                           owl:NamedIndividual ;
+                                                  
+                                                  :类型 "有线路由" ;
+                                                  
+                                                  :电源 "输入：220VAC，50Hz" ;
+                                                  
+                                                  :数据传输率 "10mbps" ;
+                                                  
+                                                  :型号 "TL-R478+" ;
+                                                  
+                                                  :传输标准 "IEEE" ;
+                                                  
+                                                  :Lan口数量 "3" ;
+                                                  
+                                                  :网络协议 "TCP/IP、DHCP、ICMP、NAT、PPPoE、SNTP" ;
+                                                  
+                                                  :尺寸 "250" ;
+                                                  
+                                                  :品牌 :TP-LINK .
+
+
+
+###  http://www.ecnu.ica.com/ditital#TP-LINKTL-WR2041N
+
+:TP-LINKTL-WR2041N rdf:type :路由器 ,
+                            owl:NamedIndividual ;
+                   
+                   :尺寸 "225mm" ;
+                   
+                   :无线传输率 "450mbps" ;
+                   
+                   :网络协议 "IEEE" ;
+                   
+                   :传输标准 "IEEE" ;
+                   
+                   :型号 "TL-WR2041N" ;
+                   
+                   :Wan口数量_无线路由 "1" ;
+                   
+                   :天线可拆卸 "不支持" ;
+                   
+                   :类型 "无线路由" ;
+                   
+                   :无线桥接 "支持" ;
+                   
+                   :Qos限速功能 "支持" ;
+                   
+                   :Lan口数量 "4" ;
+                   
+                   :品牌 :TP-LINK .
+
+
+
+###  http://www.ecnu.ica.com/ditital#i3
+
+:i3 rdf:type :CPU型号 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#i5-3339Y
+
+:i5-3339Y rdf:type :CPU型号 ,
+                   owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#i5-4460S
+
+:i5-4460S rdf:type :CPU型号 ,
+                   owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#i5-4570
+
+:i5-4570 rdf:type :CPU型号 ,
+                  owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#i7-4710MQ
+
+:i7-4710MQ rdf:type :CPU型号 ,
+                    owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#null
+
+:null rdf:type :处理器 ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#七喜悦祺1350（四核版）
+
+:七喜悦祺1350（四核版） rdf:type :台式机 ,
+                        owl:NamedIndividual ;
+               
+               :芯片组 "Bay" ;
+               
+               :机箱类型 "小机箱" ;
+               
+               :速度 "3.0ghz" ;
+               
+               :音频接口 "1" ;
+               
+               :声卡类型 "集成声卡" ;
+               
+               :硬盘 "null" ;
+               
+               :特性描述 "商用办公电脑" ;
+               
+               :型号 "悦祺1350（四核版）" ;
+               
+               :系列 "悦祺" ;
+               
+               :推荐用途 "商用电脑" ;
+               
+               :显示芯片 "Intel" ;
+               
+               :容量 "500G" ;
+               
+               :PCI槽_空闲_总数 "1" ;
+               
+               :尺寸 "135*372*359mm" ;
+               
+               :光驱类型 "null" ;
+               
+               :网卡类型 "1000Mbps以太网卡" ;
+               
+               :转速 "7200rpm" ;
+               
+               :类型 "DVD光驱" ;
+               
+               :重量 "5600.0g" ;
+               
+               :CPU "null" ;
+               
+               :COM "1" ;
+               
+               :内存容量 "null" ;
+               
+               :键盘类型 "有线键盘" ;
+               
+               :RJ-45网口 "支持" ;
+               
+               :显存容量 "共享系统内存" ;
+               
+               :USB端口 "1xUSB3.0，2xUSB2.0" ;
+               
+               :CPU核心数量 "四核" ;
+               
+               :平台类型 "Intel平台" ;
+               
+               :内存插槽个数 "1" ;
+               
+               :PCI-E "0" ;
+               
+               :视频接口 "[\"vga\",\"hdmi\"]" ;
+               
+               :最大存储扩展 "16384.0mb" ;
+               
+               :电源 "PM320" ;
+               
+               :二级缓存 "2.0mb" ;
+               
+               :鼠标 "有线鼠标" ;
+               
+               :PS2 "2" ;
+               
+               :规格尺寸 "null" ;
+               
+               :显卡类型 "集成显卡" ;
+               
+               :LPT接口 "1" ;
+               
+               :电源功率 "220W" ;
+               
+               :显存规格 "ddr3" ;
+               
+               :CPU型号 :J1900 ;
+               
+               :主板 :null .
+
+
+
+###  http://www.ecnu.ica.com/ditital#七彩虹
+
+:七彩虹 rdf:type :品牌 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#七彩虹COLORFUL
+
+:七彩虹COLORFUL rdf:type :品牌 ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#七彩虹i-B85EXV20
+
+:七彩虹i-B85EXV20 rdf:type :主板 ,
+                        owl:NamedIndividual ;
+               
+               :内存标准 "ddr3" ;
+               
+               :光纤接口 "支持" ;
+               
+               :特性描述 "支持" ;
+               
+               :USB端口 "2个USB3.0；2个USB2.0" ;
+               
+               :HDMI接口个数 "1" ;
+               
+               :音频接口 "5" ;
+               
+               :板型大小 "170x170" ;
+               
+               :内置音频接口 "支持" ;
+               
+               :硬体监控 "BIOS中显示" ;
+               
+               :PS2 "1" ;
+               
+               :三通道支持 "不支持" ;
+               
+               :DVI接口个数 "1" ;
+               
+               :板型结构 "Mini-ITX" ;
+               
+               :磁盘阵列 "不支持" ;
+               
+               :COM扩展接口 "1" ;
+               
+               :内存插槽个数 "2" ;
+               
+               :独家特色 "静电保护," ;
+               
+               :IDE接口 "0" ;
+               
+               :显示输出接口 "有" ;
+               
+               :内存容量 "null" ;
+               
+               :芯片组 "null" ;
+               
+               :BIOS语言 "[[\"中\"]]" ;
+               
+               :SATA接口 "2" ;
+               
+               :是否集成无线网卡 "支持" ;
+               
+               :PCB规格 "迷你" ;
+               
+               :接口类型 "LGA" ;
+               
+               :电源接口 "20+4" ;
+               
+               :是否支持交火 "不支持" ;
+               
+               :声卡特色 "高保真HiFI音频系统" ;
+               
+               :声卡类型 "Realtek" ;
+               
+               :集成显卡 "需要搭配内建GPU的处理器" ;
+               
+               :平台类型 "Intel平台" ;
+               
+               :SATA接口范围 "1" ;
+               
+               :声道数 "7.1声道" ;
+               
+               :双通道支持 "支持" ;
+               
+               :兼容系列 "支持" ;
+               
+               :最大网络速度 "10M/100M/1000M" ;
+               
+               :网卡类型 "Realtek" ;
+               
+               :VGA接口 "1" ;
+               
+               :最大内存容量 "16384.0mb" ;
+               
+               :型号 "i-B85EX" ;
+               
+               :USB扩展接口 "2" ;
+               
+               :主_北桥芯片 :Intel ;
+               
+               :品牌 :七彩虹 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#七彩虹iGame780Ti-3GD5
+
+:七彩虹iGame780Ti-3GD5 rdf:type :显卡 ,
+                             owl:NamedIndividual ;
+                    
+                    :显存容量 "3072.0mb" ;
+                    
+                    :尺寸 "303*127*52mm" ;
+                    
+                    :流处理单元 "2880" ;
+                    
+                    :HDMI接口个数 "1" ;
+                    
+                    :核心型号 "GTX780Ti" ;
+                    
+                    :建议电源 "600W以上" ;
+                    
+                    :是否外接供电 "支持" ;
+                    
+                    :显存位宽 "384Bit" ;
+                    
+                    :规格尺寸 "null" ;
+                    
+                    :核心代号 "GK110" ;
+                    
+                    :功耗 "250W" ;
+                    
+                    :型号 "iGame780Ti-3GD5" ;
+                    
+                    :电源接口 "8pin" ;
+                    
+                    :核心频率 "1.006ghz" ;
+                    
+                    :显存类型 "gddr5" ;
+                    
+                    :DP接口个数 "1" ;
+                    
+                    :HDCP功能 "支持" ;
+                    
+                    :风扇调速 "支持" ;
+                    
+                    :核心品牌 "NVIDIA" ;
+                    
+                    :CPU核心数量 "null" ;
+                    
+                    :最大分辨率 "3840*2160" ;
+                    
+                    :DVI接口个数 "2" ;
+                    
+                    :接口类型 "null" ;
+                    
+                    :显存频率 "7.0ghz" ;
+                    
+                    :散热器类型 "风冷" ;
+                    
+                    :特性描述 "MK战甲，iPP至纯供电技术，SPT超量镀银技术，一键超频技术，iGame-Zone配套软件" ;
+                    
+                    :品牌 :七彩虹COLORFUL .
+
+
+
+###  http://www.ecnu.ica.com/ditital#中建智能
+
+:中建智能 rdf:type :品牌 ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#中建智能中小型企业41点及以上超五类非屏蔽网线
+
+:中建智能中小型企业41点及以上超五类非屏蔽网线 rdf:type :线缆 ,
+                                  owl:NamedIndividual ;
+                         
+                         :名称 "中建智能" ;
+                         
+                         :其他特性 "安装服务" ;
+                         
+                         :品牌 :中建智能 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#乌龟海岸EARFORCEXL1
+
+:乌龟海岸EARFORCEXL1 rdf:type owl:NamedIndividual ;
+                 
+                 :接口类型 "USB口" ;
+                 
+                 :频响范围 "50-15kHz" ;
+                 
+                 :类型 "耳麦" ;
+                 
+                 :型号 "EAR" ;
+                 
+                 :音频接口 "USB接口" ;
+                 
+                 :颜色 "[\"黑\"]" ;
+                 
+                 :线长 "48800.0mm" ;
+                 
+                 :品牌 :乌龟海岸Turtle .
+
+
+
+###  http://www.ecnu.ica.com/ditital#乌龟海岸EARFORCEXLA
+
+:乌龟海岸EARFORCEXLA rdf:type owl:NamedIndividual ;
+                 
+                 :颜色 "[\"黑\"]" ;
+                 
+                 :接口类型 "直型" ;
+                 
+                 :线长 "45000.0mm" ;
+                 
+                 :型号 "EAR" ;
+                 
+                 :类型 "耳麦" ;
+                 
+                 :频响范围 "20Hz-20kHz" ;
+                 
+                 :音频接口 "2.5毫米音频接口" ;
+                 
+                 :品牌 :乌龟海岸Turtle .
+
+
+
+###  http://www.ecnu.ica.com/ditital#乌龟海岸Turtle
+
+:乌龟海岸Turtle rdf:type :品牌 ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#仙视
+
+:仙视 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#仙视L46H7
+
+:仙视L46H7 rdf:type :显示器 ,
+                  owl:NamedIndividual ;
+         
+         :DVI接口个数 "0" ;
+         
+         :内置音箱 "支持" ;
+         
+         :HDMI接口个数 "1" ;
+         
+         :屏幕比例 "16:9" ;
+         
+         :颜色 "[\"黑\"]" ;
+         
+         :尺寸范围 "30.0寸" ;
+         
+         :外观颜色 "[\"黑\"]" ;
+         
+         :响应范围 "5.0ms" ;
+         
+         :底座 "普通" ;
+         
+         :USB接口 "有" ;
+         
+         :规格尺寸 "null" ;
+         
+         :亮度 "400cd/m2" ;
+         
+         :VGA接口 "1" ;
+         
+         :尺寸 "690（H）×1850（V）×50（D）" ;
+         
+         :型号 "L46H7" ;
+         
+         :重量 "75000.0g" ;
+         
+         :面板尺寸 "46.0寸" ;
+         
+         :DP接口个数 "0" ;
+         
+         :面板类型 "PVA面板" ;
+         
+         :响应时间 "5.0ms" ;
+         
+         :电源 "AC100-240V(50Hz-60Hz)" ;
+         
+         :LED "支持" ;
+         
+         :接口类型 "null" ;
+         
+         :可视角度 "178°" ;
+         
+         :最佳分辨率 "1920" ;
+         
+         :是否支持壁挂 "不支持" ;
+         
+         :宽屏 "是" ;
+         
+         :USB端口 "2个" ;
+         
+         :特性描述 "节目加密，定时管理，外置多通道接口。" ;
+         
+         :对比度 "2000000:1" ;
+         
+         :色数 "16.7M" ;
+         
+         :品牌 :仙视 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#佛瑞克托设计DefineXLR2冰岩灰机箱
+
+:佛瑞克托设计DefineXLR2冰岩灰机箱 rdf:type :机箱 ,
+                                owl:NamedIndividual ;
+                       
+                       :特性描述 "屡获殊荣的ModuVent?设计，可使机箱达到最佳静音效果" ;
+                       
+                       :电源类型 "使用底部风扇，最大可达190mm，不使用底部风扇，最大可达345mm" ;
+                       
+                       :面板接口 "2*USB3.0" ;
+                       
+                       :特殊说明 "母板后侧留有26mm的走线空间；母板所有孔均配有厚橡胶绝缘垫圈" ;
+                       
+                       :电源 "null" ;
+                       
+                       :板材厚度 "0.8mm" ;
+                       
+                       :风扇位 "1" ;
+                       
+                       :重量 "16400.0g" ;
+                       
+                       :散热系统 "6个风扇位" ;
+                       
+                       :材质 "SECC" ;
+                       
+                       :颜色 "[\"灰\"]" ;
+                       
+                       :硬盘位数量 "8" ;
+                       
+                       :型号 "Define" ;
+                       
+                       :规格尺寸 "null" ;
+                       
+                       :显卡最大长度 "330.0mm" ;
+                       
+                       :CPU散热器限高 "170.0mm" ;
+                       
+                       :光驱位 "4" ;
+                       
+                       :尺寸 "232(W)*559(H)*560(D)mm" ;
+                       
+                       :类型 "中塔式机箱" ;
+                       
+                       :主板 :ATX ;
+                       
+                       :品牌 :佛瑞克托设计（fractal .
+
+
+
+###  http://www.ecnu.ica.com/ditital#佛瑞克托设计（fractal
+
+:佛瑞克托设计（fractal rdf:type :品牌 ,
+                         owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#先锋
+
+:先锋 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#先锋BDR-XD05C
+
+:先锋BDR-XD05C rdf:type owl:NamedIndividual ;
+             
+             :CD-RW "24X" ;
+             
+             :DVD-R "8X" ;
+             
+             :型号 "BDR-XD05C" ;
+             
+             :DVD-R_DL "6X" ;
+             
+             :尺寸 "133mm*133mm*14.8mm" ;
+             
+             j.1:RW "8X" ;
+             
+             :CD-R "24X" ;
+             
+             :接口类型 "USB接口" ;
+             
+             j.1:R_DL "8X" ;
+             
+             :DVD-ROM_Single "8X" ;
+             
+             :类别 "蓝光刻录机" ;
+             
+             :BD-ROM_BD9 "4X" ;
+             
+             :BD-XL "6X" ;
+             
+             :DVD-ROM_Dual "8X" ;
+             
+             :BD-ROM_SL "6X" ;
+             
+             :特性描述 "USB3.0" ;
+             
+             :缓存 "4.0mb" ;
+             
+             j.1:R "8X" ;
+             
+             :DVD-RW "6X" ;
+             
+             :颜色 "[\"黑\"]" ;
+             
+             :BD-ROM_Dual "6X" ;
+             
+             :DVD-RAM "5X" ;
+             
+             :CD-ROM "24X" ;
+             
+             :品牌 :先锋 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#先马1号里程碑
+
+:先马1号里程碑 rdf:type :机箱 ,
+                  owl:NamedIndividual ;
+         
+         :电源 "不带电源" ;
+         
+         :CPU散热器限高 "155.0mm" ;
+         
+         :散热系统 "风扇位置：前板12cm风扇位(选配)；后板12cm风扇位(选配)；侧板8-12cm风扇位(选配)" ;
+         
+         :显卡最大长度 "375.0mm" ;
+         
+         :面板接口 "1个USB3.0接口；2个USB2.0" ;
+         
+         :尺寸 ".包装尺寸：450(L)x225(W)x465(H)mm；产品尺寸：435(L)×196(W)×420(H)mm" ;
+         
+         :材质 "SPCC" ;
+         
+         :规格尺寸 "null" ;
+         
+         :光驱位数量 "2" ;
+         
+         :导风管 "0" ;
+         
+         :光驱位 "2" ;
+         
+         :特性描述 "全铁网防尘面板，顶置接口，" ;
+         
+         :型号 "1号里程碑" ;
+         
+         :颜色 "[\"黑\"]" ;
+         
+         :板材厚度 "0.45mm" ;
+         
+         :硬盘位数量 "2" ;
+         
+         :类型 "直立式ATX" ;
+         
+         :风扇位 "2" ;
+         
+         :音频接口 "HD" ;
+         
+         :重量 "净重" ;
+         
+         :主板 <http://www.ecnu.ica.com/ditital#ATX,M-ATX> ;
+         
+         :品牌 :先马（SAMA） .
+
+
+
+###  http://www.ecnu.ica.com/ditital#先马影子战士
+
+:先马影子战士 rdf:type :机箱 ,
+                 owl:NamedIndividual ;
+        
+        :重量 "5000.0g" ;
+        
+        :特性描述 "1、顶置双USB3.0接口，10倍速体验；2、SD/TF二合一读卡器，方便交换数据，乐享生活；3、两组风扇调速器，精确控制散热风扇的运行；4、侧透黑化背线电源下置，满足游戏玩家需求；5、全免工具安装，轻松应对日常维护" ;
+        
+        :面板接口 "2*USB3.0接口；2*USB2.0接口；2*风扇调速器；SD/TF二合一读卡器" ;
+        
+        :硬盘位数量 "4" ;
+        
+        :规格尺寸 "null" ;
+        
+        :光驱位数量 "3" ;
+        
+        :颜色 "[\"黑\"]" ;
+        
+        :散热系统 "风扇位置：前板2个12cm风扇位，后板1个12cm风扇位，顶板2个12CM风扇位" ;
+        
+        :显卡最大长度 "300.0mm" ;
+        
+        :类型 "直立式ATX" ;
+        
+        :型号 "影子战士" ;
+        
+        :音频接口 "HD" ;
+        
+        :材质 "SPCC" ;
+        
+        :尺寸 "产品尺寸：495(L)X220(W)X503(H)MM；包装尺寸：547(L)X247(W)X557(H)MM" ;
+        
+        :光驱位 "3" ;
+        
+        :板材厚度 "0.6mm" ;
+        
+        :主板 <http://www.ecnu.ica.com/ditital#ATX,M-ATX> ;
+        
+        :品牌 :先马（SAMA） .
+
+
+
+###  http://www.ecnu.ica.com/ditital#先马省电王450
+
+:先马省电王450 rdf:type :电源 ,
+                   owl:NamedIndividual ;
+          
+          :类型 "ATX" ;
+          
+          :支持宽幅 "是" ;
+          
+          :CPU "12V供电接口" ;
+          
+          :规格尺寸 "null" ;
+          
+          :电源线长 "15000.0mm" ;
+          
+          :电源接口 "20+4" ;
+          
+          :重量 "2250.0g" ;
+          
+          :SATA接口个数 "4-6" ;
+          
+          :风扇 "12cm" ;
+          
+          :D型4pin接口 "3" ;
+          
+          :PFC "主动PFC" ;
+          
+          :安全认证 "通过CE/FCC" ;
+          
+          :额定功率 "450W" ;
+          
+          :型号 "省电王450" ;
+          
+          :效率 "82%" ;
+          
+          :D型口数量 "1" ;
+          
+          :SATA接口 "1" ;
+          
+          :输入电压 "170-264v" ;
+          
+          :支持温控 "支持" ;
+          
+          :功率范围 "400W" ;
+          
+          :尺寸 "L295MM*W245MM*H95MM" ;
+          
+          :品牌 :SAMA .
+
+
+
+###  http://www.ecnu.ica.com/ditital#先马领秀暴雪版
+
+:先马领秀暴雪版 rdf:type :机箱 ,
+                  owl:NamedIndividual ;
+         
+         :光驱位 "3" ;
+         
+         :型号 "领秀暴雪版" ;
+         
+         :硬盘位数量 "3" ;
+         
+         :规格尺寸 "null" ;
+         
+         :风扇位 "9" ;
+         
+         :散热系统 "风扇位置：前板2*12cm或1*14cm进风风扇位；后板1*12cm出风风扇位；" ;
+         
+         :导风管 "0" ;
+         
+         :特性描述 "1、支持长显卡；2、支持CPU散热器；3、支持多个SSD固态硬盘安装；4、超大侧透设计，同时支持背线；5、前进后出风道，全方位立体散热。" ;
+         
+         :板材厚度 "0.7mm" ;
+         
+         :光驱位数量 "3" ;
+         
+         :颜色 "[\"白\"]" ;
+         
+         :尺寸 "产品尺寸：546(L)x226(W)x540(H)mm;包装尺寸：605(L)X275(W)X610(H)MM" ;
+         
+         :音频接口 "HD" ;
+         
+         :类型 "高塔机箱" ;
+         
+         :材质 "SPCC" ;
+         
+         :显卡最大长度 "330.0mm" ;
+         
+         :电源 "不带电源" ;
+         
+         :CPU散热器限高 "165.0mm" ;
+         
+         :面板接口 "1个USB3.0接口；2个USB2.0接口；HD高保真音频接口" ;
+         
+         :重量 "7700.0g" ;
+         
+         :主板 <http://www.ecnu.ica.com/ditital#ATX,M-ATX> ;
+         
+         :品牌 :先马（SAMA） .
+
+
+
+###  http://www.ecnu.ica.com/ditital#先马（SAMA）
+
+:先马（SAMA） rdf:type :品牌 ,
+                   owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#利豹
+
+:利豹 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#利豹LPBOL12P-R
+
+:利豹LPBOL12P-R rdf:type :散热器 ,
+                       owl:NamedIndividual ;
+              
+              :型号 "LPBOL12P-R" ;
+              
+              :规格尺寸 "null" ;
+              
+              :噪音 "8.0db" ;
+              
+              :散热片材质 "塑料" ;
+              
+              :散热方式 "风冷" ;
+              
+              :风扇尺寸 "120" ;
+              
+              :产品类别 "机箱风扇" ;
+              
+              :风扇转速_RPM "600rpm" ;
+              
+              :风量 "52.01-138.39(m3/h)" ;
+              
+              :电压 "12v" ;
+              
+              :电源接口 "4pin" ;
+              
+              :适用范围 "机箱、CPU、电源风扇" ;
+              
+              :品牌 :利豹 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#劲永
+
+:劲永 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#劲永i-Tiff
+
+:劲永i-Tiff rdf:type :U盘 ,
+                   owl:NamedIndividual ;
+          
+          :独特设计 "时尚珠宝设计；usb" ;
+          
+          :容量 "16G" ;
+          
+          :型号 "i-Tiff" ;
+          
+          :LED指示灯 "不支持" ;
+          
+          :重量 "3.4g" ;
+          
+          :规格尺寸 "null" ;
+          
+          :尺寸 "28.2" ;
+          
+          :最大读取速度 "149mbps" ;
+          
+          :系列 "i" ;
+          
+          :最大写入速度 "20mbps" ;
+          
+          :颜色 "[\"银\"]" ;
+          
+          :外壳材质 "金属" ;
+          
+          :品牌 :劲永 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#十铨科技DDR424008GB
+
+:十铨科技DDR424008GB rdf:type :内存 ,
+                          owl:NamedIndividual ;
+                 
+                 :规格尺寸 "null" ;
+                 
+                 :类型 "288-Pin" ;
+                 
+                 :工作电压 "1.2v" ;
+                 
+                 :时序 "16-16-16-39" ;
+                 
+                 :CL值 "16" ;
+                 
+                 :适用型号 "台式机内存" ;
+                 
+                 :速度 "null" ;
+                 
+                 :型号 "TPAD48G2400HC1601" ;
+                 
+                 :容量 "8GB" ;
+                 
+                 :品牌 :十铨科技（Team） .
+
+
+
+###  http://www.ecnu.ica.com/ditital#十铨科技（Team）
+
+:十铨科技（Team） rdf:type :品牌 ,
+                     owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#华硕
+
+:华硕 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#华硕ET2221IUKH-B022M
+
+:华硕ET2221IUKH-B022M rdf:type :台式机 ,
+                             owl:NamedIndividual ;
+                    
+                    :容量 "500G" ;
+                    
+                    :显卡类型 "集成显卡" ;
+                    
+                    :型号 "ET2221IUKH-B022M" ;
+                    
+                    :读卡器 "1" ;
+                    
+                    :平台类型 "Intel平台" ;
+                    
+                    :显示器 "null" ;
+                    
+                    :光驱类型 "null" ;
+                    
+                    :USB端口 "1" ;
+                    
+                    :CPU "null" ;
+                    
+                    :键盘类型 "无线键盘" ;
+                    
+                    :内存容量 "null" ;
+                    
+                    :转速 "7200rpm" ;
+                    
+                    :音频接口 "1" ;
+                    
+                    :显存容量 "共享系统内存" ;
+                    
+                    :显示芯片 "Intel?" ;
+                    
+                    :三级缓存 "2.0mb" ;
+                    
+                    :电源功率 "120W" ;
+                    
+                    :尺寸 "约549.6" ;
+                    
+                    :CPU核心数量 "双核" ;
+                    
+                    :内存插槽个数 "2" ;
+                    
+                    :最大存储扩展 "8192.0mb" ;
+                    
+                    :分辨率 "1920×1080" ;
+                    
+                    :硬盘 "null" ;
+                    
+                    :类型 "8X" ;
+                    
+                    :推荐用途 "一体机" ;
+                    
+                    :系列 "ET2221IUKH" ;
+                    
+                    :重量 "8.7g" ;
+                    
+                    :规格尺寸 "null" ;
+                    
+                    :速度 "双通道," ;
+                    
+                    :宽屏 "16:9" ;
+                    
+                    :RJ-45网口 "支持" ;
+                    
+                    :声卡类型 "集成声卡" ;
+                    
+                    :芯片组 "Intel?" ;
+                    
+                    :网卡类型 "1000Mbps以太网卡" ;
+                    
+                    :鼠标 "无线鼠标" ;
+                    
+                    :视频接口 "1" ;
+                    
+                    :CPU型号 :G1820T ;
+                    
+                    :主板 :null .
+
+
+
+###  http://www.ecnu.ica.com/ditital#华硕H97I-PLUS
+
+:华硕H97I-PLUS rdf:type :主板 ,
+                      owl:NamedIndividual ;
+             
+             :SATA接口范围 "1" ;
+             
+             :三通道支持 "不支持" ;
+             
+             :网卡类型 "Intel?" ;
+             
+             :VGA接口 "1" ;
+             
+             :SATA接口 "1" ;
+             
+             :内存插槽个数 "2" ;
+             
+             :集成显卡 "需要搭配内建GPU的处理器" ;
+             
+             :是否支持交火 "不支持" ;
+             
+             :IDE接口 "0" ;
+             
+             :USB扩展接口 "1" ;
+             
+             :接口类型 "LGA" ;
+             
+             :兼容系列 "英特尔?" ;
+             
+             :板型结构 "Mini-ITX" ;
+             
+             :HDMI接口个数 "1" ;
+             
+             :最大内存容量 "16384.0mb" ;
+             
+             :板型大小 "6.7" ;
+             
+             :磁盘阵列 "支持" ;
+             
+             :音频接口 "3" ;
+             
+             :电源接口 "24+8" ;
+             
+             :平台类型 "Intel平台" ;
+             
+             :内置音频接口 "支持" ;
+             
+             :声道数 "7.1声道" ;
+             
+             :显示输出接口 "[\"hdmi\",\"dvi\"]" ;
+             
+             :PS2 "1" ;
+             
+             :最大网络速度 "10M/100M/1000M" ;
+             
+             :声卡特色 "美声大师设计" ;
+             
+             :内存容量 "null" ;
+             
+             :DP接口个数 "1" ;
+             
+             :内存标准 "ddr3" ;
+             
+             :芯片组 "null" ;
+             
+             :USB端口 "4" ;
+             
+             :其它插座 "1" ;
+             
+             :声卡类型 "Realtek?" ;
+             
+             :型号 "H97I-PLUS" ;
+             
+             :独家特色 "华硕5重防护：" ;
+             
+             :DVI接口个数 "1" ;
+             
+             :光纤接口 "支持" ;
+             
+             :PCB规格 "迷你" ;
+             
+             :双通道支持 "支持" ;
+             
+             :主_北桥芯片 :Intel ;
+             
+             :品牌 :华硕 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#友讯
+
+:友讯 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#友讯DIR-110
+
+:友讯DIR-110 rdf:type :路由器 ,
+                    owl:NamedIndividual ;
+           
+           :传输标准 "IEEE" ;
+           
+           :类型 "有线路由" ;
+           
+           :型号 "DIR-110" ;
+           
+           :数据传输率 "10mbps" ;
+           
+           :Lan口数量 "8" ;
+           
+           :重量 "300.0g" ;
+           
+           :尺寸 "198" ;
+           
+           :电源 "DC" ;
+           
+           :品牌 :友讯 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#双飞燕
+
+:双飞燕 rdf:type :品牌 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#双飞燕PKS-730G
+
+:双飞燕PKS-730G rdf:type :摄像头 ,
+                      owl:NamedIndividual ;
+             
+             :捕获幅面 "4608*3456" ;
+             
+             :像素 "30万" ;
+             
+             :型号 "PKS-730G" ;
+             
+             :传感器 "CMOS" ;
+             
+             :麦克风 "内置" ;
+             
+             :特性描述 "软管设计" ;
+             
+             :最大帧数 "30fps" ;
+             
+             :接口类型 "USB" ;
+             
+             :颜色 "[\"黑\"]" ;
+             
+             :产品规格 "null" ;
+             
+             :驱动 "免驱" ;
+             
+             :视像解像度_分辨率 "640*480" ;
+             
+             :品牌 :双飞燕（A4tech） .
+
+
+
+###  http://www.ecnu.ica.com/ditital#双飞燕WK-550
+
+:双飞燕WK-550 rdf:type :键盘 ,
+                    owl:NamedIndividual ;
+           
+           :尺寸 "485mm*230mm*25mm" ;
+           
+           :规格尺寸 "null" ;
+           
+           :重量 "1035.0g" ;
+           
+           :颜色 "[\"黑\"]" ;
+           
+           :接口类型 "USB" ;
+           
+           :型号 "双飞燕" ;
+           
+           :其他特性 "键盘线长：1.6米" ;
+           
+           :传输方式 "线缆" ;
+           
+           :类型 "有线键盘" ;
+           
+           :品牌 :双飞燕 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#双飞燕（A4tech）
+
+:双飞燕（A4tech） rdf:type :品牌 ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#同为(TOWE)
+
+<http://www.ecnu.ica.com/ditital#同为(TOWE)> rdf:type :品牌 ,
+                                                    owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#同为EN10/G808K
+
+<http://www.ecnu.ica.com/ditital#同为EN10/G808K> rdf:type :插座 ,
+                                                        owl:NamedIndividual ;
+                                               
+                                               :额定电压 "250v" ;
+                                               
+                                               :额定功率 "2500W" ;
+                                               
+                                               :其他特性 "带总控开关、电源指示灯；3*1.5平线缆3米；铝合金壳体；产品的内部连接采用全铜带（柱）并联结构" ;
+                                               
+                                               :额定电流 "10A" ;
+                                               
+                                               :型号 "EN10/G808K" ;
+                                               
+                                               :输出线长度 "30000.0mm" ;
+                                               
+                                               :插孔数量 "8" ;
+                                               
+                                               :规格尺寸 "null" ;
+                                               
+                                               :品牌 <http://www.ecnu.ica.com/ditital#同为(TOWE)> .
+
+
+
+###  http://www.ecnu.ica.com/ditital#和冠
+
+:和冠 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#和冠LP-170-0K
+
+:和冠LP-170-0K rdf:type :手写板 ,
+                      owl:NamedIndividual ;
+             
+             :型号 "LP-170-0K" ;
+             
+             :颜色 "[\"黑\"]" ;
+             
+             :感应方式 "无线无源" ;
+             
+             :规格尺寸 "null" ;
+             
+             :品牌 :和冠 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#圆刚C127
+
+:圆刚C127 rdf:type owl:NamedIndividual ;
+        
+        :规格尺寸 "null" ;
+        
+        :适用范围 "电脑" ;
+        
+        :类型 "游戏画面采集直播" ;
+        
+        :颜色 "[\"黑\"]" ;
+        
+        :名称 "易录卡" ;
+        
+        :连接方式 "PCI-E插槽" ;
+        
+        :接口类型 "插槽：PCI-Express" .
+
+
+
+###  http://www.ecnu.ica.com/ditital#外星人ALW17R-5748
+
+:外星人ALW17R-5748 rdf:type owl:NamedIndividual ;
+                
+                :芯片组 "英特尔HM87高速芯片组" ;
+                
+                :电池 "8芯锂离子电池（86瓦时）" ;
+                
+                :类型 "独立显卡" ;
+                
+                :电源 "null" ;
+                
+                :内置蓝牙 "支持" ;
+                
+                :USB2.0接口个数 "0" ;
+                
+                :系列 "Alienware" ;
+
+                :价格 "500" ;
+                
+                :屏幕规格 "17.3寸" ;
+                
+                :硬盘 "null" ;
+                
+                :CPU速度 "2.5ghz" ;
+                
+                :三级缓存 "6.0mb" ;
+                
+                :CPU类型 "第四代智能英特尔酷睿" ;
+                
+                :扬声器 "内置高保真5.1" ;
+                
+                :电源适配器 "240瓦交流电源适配器" ;
+                
+                :端口 "0" ;
+                
+                :内存插槽个数 "4" ;
+                
+                :触摸板 "支持" ;
+                
+                :RJ-45网口 "支持" ;
+                
+                :显存容量 "8192.0mb" ;
+                
+                :接口类型 "SATA" ;
+                
+                :特性描述 "电力持久," ;
+                
+                :屏幕类型 "LED背光" ;
+                
+                :净重 "4150.1g" ;
+                
+                :局域网 "Killer" ;
+                
+                :内存标准 "ddr3" ;
+                
+                :尺寸 "高：前：46.24毫米" ;
+                
+                :是否内置麦克风 "支持" ;
+                
+                :读卡器 "（1个）9合1介质卡读卡器" ;
+                
+                :USB3.0接口个数 "1" ;
+                
+                :显卡类型 "null" ;
+                
+                :物理分辨率 "1920" ;
+                
+                :显示器 "null" ;
+                
+                :转速 "5400rpm" ;
+                
+                :键盘类型 "4区多色RGB键盘，带AlienFX照明控制和数字小键盘" ;
+                
+                :续航时间 "2~3小时" ;
+                
+                :内存容量 "16384.0mb" ;
+                
+                :型号 "ALW17R-5748" ;
+                
+                :音频接口 "（2个）音频输出1/8英寸端口（其中一个与内联麦克风耳机兼容）（1个）线路输入麦克风1/8英寸端口（可转5.1模拟音频输出）" ;
+                
+                :颜色 "[\"银\"]" ;
+                
+                :CPU核心数量 "四核" ;
+                
+                :显示芯片 "NVIDIA" ;
+                
+                :兼容操作系统 "Windows" ;
+                
+                :网络摄像头 "全高清200万像素摄像头，带双数字麦克风" ;
+                
+                :光驱类型 "null" ;
+                
+                :屏幕尺寸 "17.3寸" ;
+                
+                :硬盘容量 "1048576.0mb" ;
+                
+                :平台类型 "Intel" ;
+                
+                :显示比例 "16:9" ;
+                
+                :显示端口 "[\"hdmi\"]" ;
+                
+                :无线局域网 "支持" ;
+                
+                :CPU型号 :i7-4710MQ ;
+                
+                :处理器 :null .
+
+
+
+###  http://www.ecnu.ica.com/ditital#天语nibilu木星一号（M1）
+
+:天语nibilu木星一号（M1） rdf:type :平板电脑 ,
+                           owl:NamedIndividual ;
+                  
+                  :摄像头 "有" ;
+                  
+                  :尺寸 "105.4x186.1x8.5mm" ;
+                  
+                  :屏幕尺寸 "7.0寸" ;
+                  
+                  :Flash播放 "支持" ;
+                  
+                  :扬声器 "有" ;
+                  
+                  :后置摄像头 "有" ;
+                  
+                  :前置摄像头 "有" ;
+                  
+                  :存储容量 "16384.0mb" ;
+                  
+                  :上市时间 "2014年8月" ;
+                  
+                  :系统内存 "2048.0mb" ;
+                  
+                  :WIFI功能 "支持" ;
+                  
+                  j.0:G类型 "[\"联通\"]" ;
+                  
+                  :续航时间 "3G待机约480小时、3G视频通话4小时；2G待机约580小时、通话约17小时" ;
+                  
+                  :兼容操作系统 "Android" ;
+                  
+                  :蓝牙功能 "支持" ;
+                  
+                  :电池容量 "3500mAh" ;
+                  
+                  :RJ-45网口 "不支持" ;
+                  
+                  :净重 "223.0g" ;
+                  
+                  :多点触控 "支持" ;
+                  
+                  :特性描述 "通话平板" ;
+                  
+                  :USB接口 "无" ;
+                  
+                  :屏幕类型 "LTPS" ;
+                  
+                  :音频接口 "3.5mm" ;
+                  
+                  :电池类型 "锂电池" ;
+                  
+                  :指取设备 "支持" ;
+                  
+                  :颜色 "[\"白\"]" ;
+                  
+                  :端口 "0" ;
+                  
+                  :CPU速度 "1.7ghz" ;
+                  
+                  :最大存储扩展 "32768.0mb" ;
+                  
+                  :电源 "null" ;
+                  
+                  :型号 "nibiruM1" ;
+                  
+                  :内置3G "支持" ;
+                  
+                  :电影播放 "1920*1080" ;
+                  
+                  :摄像头像素 "1300万+前置200万" ;
+                  
+                  :屏幕比例 "16:10" ;
+                  
+                  :屏幕描述 "电容屏" ;
+                  
+                  :屏幕分辨率 "1920*1200" ;
+                  
+                  :内置感应 "支持" ;
+                  
+                  :重力感应 "支持" ;
+                  
+                  :麦克风 "有" ;
+                  
+                  :存储卡类型 "Micro" ;
+                  
+                  :CPU核心数量 "八核" ;
+                  
+                  :光线感应 "支持" ;
+                  
+                  :GPS导航 "支持" ;
+                  
+                  :规格尺寸 "null" ;
+                  
+                  :处理器 :联发科MT6592 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#奥尼
+
+:奥尼 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#奥尼酷彩
+
+:奥尼酷彩 rdf:type :摄像头 ,
+               owl:NamedIndividual ;
+      
+      :特性描述 "高清镜头，视频更清晰，" ;
+      
+      :视像解像度_分辨率 "640x480（默认）、1600x1200（软件）" ;
+      
+      :捕获幅面 "160*120" ;
+      
+      :产品规格 "null" ;
+      
+      :最大帧数 "30fps" ;
+      
+      :型号 "ANC酷彩" ;
+      
+      :传感器 "CMOS" ;
+      
+      :驱动 "免驱" ;
+      
+      :接口类型 "USB" ;
+      
+      :麦克风 "内置" ;
+      
+      :像素 "硬件30万" ;
+      
+      :品牌 :奥尼 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#奥睿科UH4C4
+
+:奥睿科UH4C4 rdf:type :线缆 ,
+                   owl:NamedIndividual ;
+          
+          :类别 "充电HUB" ;
+          
+          :特性描述 "USB3.0数据传输+BC1.2充电" ;
+          
+          :型号 "ORICO" ;
+          
+          :品牌 :ORICO .
+
+
+
+###  http://www.ecnu.ica.com/ditital#威刚
+
+:威刚 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#威刚DDR313332G
+
+:威刚DDR313332G rdf:type :内存 ,
+                       owl:NamedIndividual ;
+              
+              :适用型号 "笔记本内存" ;
+              
+              :容量 "2GB" ;
+              
+              :特征 "产品及外包以实物为准" ;
+              
+              :速度 "3.0ghz" ;
+              
+              :类型 "204-Pin" ;
+              
+              :工作电压 "1.5v" ;
+              
+              :型号 "DDR3" ;
+              
+              :规格尺寸 "null" ;
+              
+              :品牌 :威刚 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#子弹头
+
+:子弹头 rdf:type :品牌 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#子弹头TS-237A
+
+:子弹头TS-237A rdf:type :插座 ,
+                     owl:NamedIndividual ;
+            
+            :其他特性 "过载保护" ;
+            
+            :输出线长度 "48000.0mm" ;
+            
+            :型号 "TS-237A" ;
+            
+            :额定电流 "10A" ;
+            
+            :规格尺寸 "null" ;
+            
+            :插孔数量 "1" ;
+            
+            :额定电压 "250v" ;
+            
+            :额定功率 "2500W" ;
+            
+            :品牌 :子弹头 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#子弹头TS-239A
+
+:子弹头TS-239A rdf:type :插座 ,
+                     owl:NamedIndividual ;
+            
+            :型号 "TS-239A" ;
+            
+            :额定电压 "250v" ;
+            
+            :插孔数量 "1" ;
+            
+            :额定功率 "2500W" ;
+            
+            :额定电流 "10A" ;
+            
+            :规格尺寸 "null" ;
+            
+            :输出线长度 "28000.0mm" ;
+            
+            :品牌 :子弹头 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#宏碁
+
+:宏碁 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#宏碁B1-730HD
+
+:宏碁B1-730HD rdf:type :平板电脑 ,
+                     owl:NamedIndividual ;
+            
+            :兼容操作系统 "Android" ;
+            
+            :音频接口 "3.5" ;
+            
+            :屏幕类型 "IPS" ;
+            
+            :屏幕比例 "16:9" ;
+            
+            :规格尺寸 "null" ;
+            
+            :屏幕分辨率 "1280" ;
+            
+            :Flash播放 "支持" ;
+            
+            :麦克风 "隐藏式麦克风" ;
+            
+            :最大存储扩展 "32768.0mb" ;
+            
+            :型号 "B1-730HD-11UN" ;
+            
+            :扬声器 "有" ;
+            
+            :WIFI功能 "支持" ;
+            
+            :指取设备 "支持" ;
+            
+            :颜色 "[\"紫\"]" ;
+            
+            :电池类型 "可充电锂电池" ;
+            
+            :系统内存 "1024.0mb" ;
+            
+            :CPU核心数量 "双核" ;
+            
+            :后置摄像头 "有" ;
+            
+            :特性描述 "防滑纹理设计后盖" ;
+            
+            :摄像头像素 "前置30万高清摄像头," ;
+            
+            :净重 "330.0g" ;
+            
+            :多点触控 "支持" ;
+            
+            :存储卡类型 "microSD扩展" ;
+            
+            :尺寸 "197.5" ;
+            
+            :屏幕描述 "电容屏" ;
+            
+            :电源 "null" ;
+            
+            :存储容量 "16384.0mb" ;
+            
+            :前置摄像头 "有" ;
+            
+            :电影播放 "高清视频离线播放长达7小时" ;
+            
+            :重力感应 "支持" ;
+            
+            :端口 "0" ;
+            
+            :屏幕尺寸 "7.0寸" ;
+            
+            :续航时间 "7小时" ;
+            
+            :GPS导航 "支持" ;
+            
+            :蓝牙功能 "支持" ;
+            
+            :电池容量 "14Wh," ;
+            
+            :CPU速度 "1.6ghz" ;
+            
+            :USB接口 "Micro" ;
+            
+            :处理器 :Intel .
+
+
+
+###  http://www.ecnu.ica.com/ditital#宏碁RL80_E3227U
+
+:宏碁RL80_E3227U rdf:type :台式机 ,
+                        owl:NamedIndividual ;
+               
+               :平台类型 "Intel平台" ;
+               
+               :最大存储扩展 "8192.0mb" ;
+               
+               :尺寸 "209.89x" ;
+               
+               :内存插槽个数 "2" ;
+               
+               :电源 "65W" ;
+               
+               :内存容量 "null" ;
+               
+               :RJ-45网口 "支持" ;
+               
+               :硬盘 "null" ;
+               
+               :CPU核心数量 "双核" ;
+               
+               :键盘类型 "多媒体键盘" ;
+               
+               :PCI槽_空闲_总数 "0" ;
+               
+               :CPU "null" ;
+               
+               :USB端口 "4*USB2.0" ;
+               
+               :视频接口 "[\"hdmi\",\"dvi\"]" ;
+               
+               :兼容操作系统 "Windows" ;
+               
+               :特性描述 "●多功能读卡器/USB3.0" ;
+               
+               :速度 "3.0ghz" ;
+               
+               :三级缓存 "3.0mb" ;
+               
+               :显卡类型 "集成显卡" ;
+               
+               :推荐用途 "家用电脑" ;
+               
+               :光驱类型 "null" ;
+               
+               :重量 "3000.0g" ;
+               
+               :鼠标 "光电鼠标" ;
+               
+               :容量 "1TB" ;
+               
+               :规格尺寸 "null" ;
+               
+               :显示芯片 "集成" ;
+               
+               :型号 "RL80" ;
+               
+               :音频接口 "1" ;
+               
+               :类型 "无" ;
+               
+               :显存容量 "共享系统内存" ;
+               
+               :机箱类型 "小机箱(<2L)" ;
+               
+               :芯片组 "Intel?" ;
+               
+               :转速 "5400rpm" ;
+               
+               :网卡类型 "集成千兆网卡/WIFI" ;
+               
+               :CPU型号 :i3 ;
+               
+               :主板 :null ;
+               
+               :品牌 :宏碁 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#宜丽客OG-KBLP01FM
+
+:宜丽客OG-KBLP01FM rdf:type owl:NamedIndividual ;
+                
+                :其他特性 "重量：64g;尺寸（方框表示法）：" ;
+                
+                :名称 "宜丽客" .
+
+
+
+###  http://www.ecnu.ica.com/ditital#广博(GuangBo)
+
+<http://www.ecnu.ica.com/ditital#广博(GuangBo)> rdf:type :品牌 ,
+                                                       owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#广博NB1901
+
+:广博NB1901 rdf:type :插座 ,
+                   owl:NamedIndividual ;
+          
+          :型号 "NB1901" ;
+          
+          :规格尺寸 "null" ;
+          
+          :输出线长度 "28000.0mm" ;
+          
+          :额定功率 "2500W" ;
+          
+          :插孔数量 "1" ;
+          
+          :额定电流 "10A" ;
+          
+          :额定电压 "250v" ;
+          
+          :品牌 <http://www.ecnu.ica.com/ditital#广博(GuangBo)> .
+
+
+
+###  http://www.ecnu.ica.com/ditital#广颖电通Touch810-32G
+
+:广颖电通Touch810-32G rdf:type :U盘 ,
+                           owl:NamedIndividual ;
+                  
+                  :系列 "USB2.0" ;
+                  
+                  :外壳材质 "塑料" ;
+                  
+                  :重量 "5.0g" ;
+
+                  :价格 600 ;
+                  
+                  :颜色 "[\"蓝\"]" ;
+                  
+                  :独特设计 "\"1" ;
+                  
+                  :尺寸 "15.0" ;
+                  
+                  :容量 "32G" ;
+                  
+                  :型号 "Touch810-32G" ;
+                  
+                  :规格尺寸 "null" ;
+                  
+                  :品牌 :广颖电通（silicon .
+
+
+
+###  http://www.ecnu.ica.com/ditital#广颖电通（silicon
+
+:广颖电通（silicon rdf:type :品牌 ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#微星
+
+:微星 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#微星A88XM-P33主板
+
+:微星A88XM-P33主板 rdf:type :主板 ,
+                        owl:NamedIndividual ;
+               
+               :双通道支持 "支持" ;
+               
+               :内存插槽个数 "2" ;
+               
+               :DVI接口个数 "1" ;
+               
+               :声道数 "7.1声道" ;
+               
+               :三通道支持 "不支持" ;
+               
+               :平台类型 "AMD平台" ;
+               
+               :BIOS语言 "[[\"中\"]]" ;
+               
+               :网卡类型 "Realtek?" ;
+               
+               :内存容量 "null" ;
+               
+               :兼容系列 "支持" ;
+               
+               :集成显卡 "需要搭配内建GPU的处理器" ;
+               
+               :USB扩展接口 "2" ;
+               
+               :电源接口 "24+4" ;
+               
+               :最大内存容量 "32768.0mb" ;
+               
+               :PCB规格 "小板" ;
+               
+               :型号 "A88XM-P33" ;
+               
+               :USB端口 "4" ;
+               
+               :SATA接口范围 "1" ;
+               
+               :内存标准 "ddr3" ;
+               
+               :IDE接口 "0" ;
+               
+               :SATA接口 "4" ;
+               
+               :板型结构 "M-ATX" ;
+               
+               :板型大小 "22.6" ;
+               
+               :音频接口 "3" ;
+               
+               :内置音频接口 "支持" ;
+               
+               :是否支持交火 "不支持" ;
+               
+               :显示输出接口 "有" ;
+               
+               :PS2 "1" ;
+               
+               :声卡类型 "Realtek" ;
+               
+               :磁盘阵列 "支持" ;
+               
+               :VGA接口 "1" ;
+               
+               :最大网络速度 "10M/100M/1000M" ;
+               
+               :芯片组 "null" ;
+               
+               :接口类型 "FM2+" ;
+               
+               :主_北桥芯片 :AMD ;
+               
+               :品牌 :微星 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#德国蟒蛇HC-0111.5M
+
+:德国蟒蛇HC-0111.5M rdf:type :线缆 ,
+                         owl:NamedIndividual ;
+                
+                :规格尺寸 "null" ;
+                
+                :名称 "德国蟒蛇（JIB）" ;
+                
+                :其他特性 "24K金镀金头" ;
+                
+                :接口类型 "镀金" ;
+                
+                :线长 "15000.0mm" ;
+                
+                :种类 "音频线" ;
+                
+                :品牌 <http://www.ecnu.ica.com/ditital#JIB/德国蟒蛇> .
+
+
+
+###  http://www.ecnu.ica.com/ditital#德国雅堡
+
+:德国雅堡 rdf:type :品牌 ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#德国雅堡GY-800A-1
+
+:德国雅堡GY-800A-1 rdf:type :线缆 ,
+                        owl:NamedIndividual ;
+               
+               :线长 "25000.0mm" ;
+               
+               :其他特性 "高纯度6N大晶体镀银无氧铜+特种纤维线编织层+屏蔽+缠绞结构" ;
+               
+               :规格尺寸 "null" ;
+               
+               :名称 "德国雅堡（YARBO）GY-800A-1" ;
+               
+               :种类 "音频线" ;
+               
+               :品牌 :德国雅堡 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#忆捷
+
+:忆捷 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#忆捷E30-500G
+
+:忆捷E30-500G rdf:type :移动硬盘 ,
+                     owl:NamedIndividual ;
+            
+            :尺寸 "118*76*8.8mm" ;
+            
+            :LED指示灯 "支持" ;
+            
+            :硬盘尺寸 "2.5寸" ;
+            
+            :系列 "E30" ;
+            
+            :重量 "195.0g" ;
+            
+            :外部输出接口 "USB3.0" ;
+            
+            :型号 "E30-500G" ;
+            
+            :规格尺寸 "null" ;
+            
+            :特性描述 "8.8MM超薄时尚移动硬盘" ;
+            
+            :容量 "500G" ;
+            
+            :硬盘接口 "SATA" ;
+            
+            :转速 "5400rpm" ;
+            
+            :缓存 "8.0mb" ;
+            
+            :电源 "无" ;
+            
+            :外壳材质 "金属" ;
+            
+            :外观颜色 "[\"银\"]" ;
+            
+            :品牌 :忆捷 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#思科
+
+:思科 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#思科WS-C2960-24PC-L
+
+:思科WS-C2960-24PC-L rdf:type :交换机 ,
+                            owl:NamedIndividual ;
+                   
+                   :重量 "5400.0g" ;
+                   
+                   :型号 "WS-C2960-24PC-L" ;
+                   
+                   :速度 "null" ;
+                   
+                   :尺寸 "332×445×44mm" ;
+                   
+                   :端口 "24" ;
+                   
+                   :规格尺寸 "null" ;
+                   
+                   :网络标准 "IEEE" ;
+                   
+                   :品牌 :思科 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#惠普
+
+:惠普 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#惠普P19A/D2W67AA
+
+<http://www.ecnu.ica.com/ditital#惠普P19A/D2W67AA> rdf:type :显示器 ,
+                                                          owl:NamedIndividual ;
+                                                 
+                                                 :面板尺寸 "19.0寸" ;
+                                                 
+                                                 :点距 "0.294mm" ;
+                                                 
+                                                 :内置音箱 "不支持" ;
+                                                 
+                                                 :尺寸范围 "18.0寸" ;
+                                                 
+                                                 :宽屏 "是" ;
+                                                 
+                                                 :VGA接口 "1" ;
+                                                 
+                                                 :响应时间 "5.0ms" ;
+                                                 
+                                                 :电源 "100" ;
+                                                 
+                                                 :对比度 "1000000:1" ;
+                                                 
+                                                 :规格尺寸 "null" ;
+                                                 
+                                                 :外观颜色 "[\"黑\"]" ;
+                                                 
+                                                 :最佳分辨率 "1280" ;
+                                                 
+                                                 :屏幕比例 "5:4" ;
+                                                 
+                                                 :型号 "P19A" ;
+                                                 
+                                                 :尺寸 "19英寸" ;
+                                                 
+                                                 :接口类型 "null" ;
+                                                 
+                                                 :亮度 "250cd/m2" ;
+                                                 
+                                                 :LED "支持" ;
+                                                 
+                                                 :品牌 :惠普 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#惠科
+
+:惠科 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#惠科G2433
+
+:惠科G2433 rdf:type :显示器 ,
+                  owl:NamedIndividual ;
+         
+         :屏幕比例 "16:9" ;
+         
+         :接口类型 "null" ;
+         
+         :面板类型 "TN面板" ;
+         
+         :是否支持壁挂 "不支持" ;
+         
+         :面板尺寸 "24.0寸" ;
+         
+         :DVI接口个数 "1" ;
+         
+         :宽屏 "是" ;
+         
+         :规格尺寸 "null" ;
+         
+         :VGA接口 "1" ;
+         
+         :响应时间 "2.0ms" ;
+         
+         :特性描述 "内置钢化玻璃" ;
+         
+         :底座 "普通" ;
+         
+         :电源 "AC100-240V,50/60HZ" ;
+         
+         :色数 "16.7M" ;
+         
+         :可视角度 "170/160" ;
+         
+         :型号 "G2433" ;
+         
+         :颜色 "[\"红\"]" ;
+         
+         :对比度 "8000000:1" ;
+         
+         :亮度 "250cd/m2" ;
+         
+         :外观颜色 "[\"红\"]" ;
+         
+         :LED "支持" ;
+         
+         :最佳分辨率 "1920" ;
+         
+         :品牌 :惠科 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#惠科P7S
+
+:惠科P7S rdf:type :平板电脑 ,
+                owl:NamedIndividual ;
+       
+       :存储卡类型 "Micro" ;
+       
+       :材质 "塑胶/免喷涂高光无痕注塑工艺" ;
+       
+       :前置摄像头 "有" ;
+       
+       :续航时间 "视使用环境而定" ;
+       
+       :电池容量 "3000mA" ;
+       
+       :扬声器 "有" ;
+       
+       :尺寸 "189.2*114*11.7mm" ;
+       
+       :上市时间 "2014" ;
+       
+       :指取设备 "支持" ;
+       
+       :兼容操作系统 "Android" ;
+       
+       :规格尺寸 "null" ;
+       
+       :屏幕类型 "IPS" ;
+       
+       :型号 "P7S" ;
+       
+       :最大存储扩展 "32768.0mb" ;
+       
+       :Flash播放 "支持" ;
+       
+       :屏幕比例 "16:10" ;
+       
+       :屏幕描述 "电容屏" ;
+       
+       :CPU核心数量 "四核心" ;
+       
+       :屏幕尺寸 "7.0寸" ;
+       
+       :显示芯片 "Power" ;
+       
+       :净重 "305.0g" ;
+       
+       :颜色 "[\"白\"]" ;
+       
+       :麦克风 "有" ;
+       
+       :电池类型 "锂电池" ;
+       
+       :电源 "null" ;
+       
+       :CPU速度 "1.3ghz" ;
+       
+       :屏幕分辨率 "1280*800" ;
+       
+       :存储容量 "8192.0mb" ;
+       
+       :重力感应 "支持" ;
+       
+       :WIFI功能 "支持" ;
+       
+       :系统内存 "1024.0mb" ;
+       
+       :处理器 :ARM .
+
+
+
+###  http://www.ecnu.ica.com/ditital#戴尔
+
+:戴尔 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#戴尔D2740L
+
+:戴尔D2740L rdf:type :显示器 ,
+                   owl:NamedIndividual ;
+          
+          :尺寸范围 "25.5寸" ;
+          
+          :面板尺寸 "27.0寸" ;
+          
+          :外观颜色 "[\"黑\"]" ;
+          
+          :颜色 "[\"黑\"]" ;
+          
+          :底座 "倾斜," ;
+          
+          :响应范围 "5.0ms" ;
+          
+          :对比度 "1,000：1（典型值）8,000,000：1（动态对比度）" ;
+          
+          :最佳分辨率 "1920" ;
+          
+          :规格尺寸 "null" ;
+          
+          :屏幕比例 "16:9" ;
+          
+          :内置音箱 "不支持" ;
+          
+          :是否支持壁挂 "支持" ;
+          
+          :点距 "0.311mm" ;
+          
+          :壁挂规格 "100x100mm" ;
+          
+          :尺寸 "尺寸（含底座）（高度*宽度*厚度）：458.7毫米*" ;
+          
+          :LED "支持" ;
+          
+          :重量 "5280.0g" ;
+          
+          :VGA接口 "1" ;
+          
+          :USB端口 "2个" ;
+          
+          :宽屏 "是" ;
+          
+          :HDMI接口个数 "1" ;
+          
+          :响应时间 "7.0ms" ;
+          
+          :USB接口 "有" ;
+          
+          :型号 "S2740L" ;
+          
+          :接口类型 "null" ;
+          
+          :亮度 "250cd/m2" ;
+          
+          :面板类型 "IPS面板" ;
+          
+          :可视角度 "（垂直178°/水平178°）" ;
+          
+          :DVI接口个数 "1" ;
+          
+          :电源 "交流输入电压/频率/电流（最大值）：" ;
+          
+          :色数 "1,670万色" ;
+          
+          :品牌 :戴尔 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#戴尔Inspiron5348-R2938T
+
+:戴尔Inspiron5348-R2938T rdf:type :台式机 ,
+                                owl:NamedIndividual ;
+                       
+                       :平台类型 "Intel平台" ;
+                       
+                       :声卡类型 "集成声卡" ;
+                       
+                       :CPU核心数量 "四核" ;
+                       
+                       :推荐用途 "一体机" ;
+                       
+                       :显示器 "null" ;
+                       
+                       :规格尺寸 "null" ;
+                       
+                       :重量 "9350.0g" ;
+                       
+                       :容量 "1TB" ;
+                       
+                       :USB端口 "5个USB" ;
+                       
+                       :触摸 "是" ;
+                       
+                       :三级缓存 "6.0mb" ;
+                       
+                       :显示芯片 "AMD" ;
+                       
+                       :机箱类型 "一体机" ;
+                       
+                       :内存插槽个数 "2" ;
+                       
+                       :网卡类型 "集成10/100/1000以太网卡+" ;
+                       
+                       :尺寸 "574" ;
+                       
+                       :速度 "3.0ghz" ;
+                       
+                       :光驱类型 "null" ;
+                       
+                       :CPU "null" ;
+                       
+                       :视频接口 "[\"hdmi\",\"hdmi\"]" ;
+                       
+                       :芯片组 "英特尔H87" ;
+                       
+                       :音频接口 "音频输出端口" ;
+                       
+                       :型号 "Inspiron" ;
+                       
+                       :系列 "Inspiron" ;
+                       
+                       :兼容操作系统 "Windows" ;
+                       
+                       :显存规格 "ddr3" ;
+                       
+                       :RJ-45网口 "支持" ;
+                       
+                       :显存容量 "2048.0mb" ;
+                       
+                       :分辨率 "1920×1080" ;
+                       
+                       :鼠标 "戴尔无线键盘和鼠标" ;
+                       
+                       :特性描述 "23英寸高清显示屏，无边框设计，简约之美尽收眼底；配备丰富接口，轻松连接多种影音设备" ;
+                       
+                       :硬盘 "null" ;
+                       
+                       :电源 "电源线" ;
+                       
+                       :电源功率 "185W" ;
+                       
+                       :读卡器 "4合1介质卡读卡器" ;
+                       
+                       :键盘类型 "戴尔无线键盘和鼠标" ;
+                       
+                       :显卡类型 "独立显卡" ;
+                       
+                       :内存容量 "null" ;
+                       
+                       :类型 "托盘载入式" ;
+                       
+                       :CPU型号 :i5-4460S ;
+                       
+                       :主板 :null .
+
+
+
+###  http://www.ecnu.ica.com/ditital#技嘉
+
+:技嘉 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#技嘉H81N主板
+
+:技嘉H81N主板 rdf:type :主板 ,
+                   owl:NamedIndividual ;
+          
+          :最大内存容量 "16384.0mb" ;
+          
+          :网卡类型 "Realtek?" ;
+          
+          :PS2 "1" ;
+          
+          :芯片组 "null" ;
+          
+          :双通道支持 "支持" ;
+          
+          :最大网络速度 "10M/100M/1000M" ;
+          
+          :型号 "H81N" ;
+          
+          :磁盘阵列 "不支持" ;
+          
+          :接口类型 "LGA" ;
+          
+          :电源接口 "24+4" ;
+          
+          :板型大小 "17.0公分x" ;
+          
+          :LPT扩展接口 "1" ;
+          
+          :IDE接口 "0" ;
+          
+          :硬体监控 "1.系统电压侦测;2.CPU/系统温度侦测;3.CPU/系统风扇转速侦测;4.CPU/系统智能风扇控制" ;
+          
+          :SATA接口范围 "1" ;
+          
+          :HDMI接口个数 "1" ;
+          
+          :音频接口 "3" ;
+          
+          :平台类型 "Intel平台" ;
+          
+          :内存插槽个数 "2" ;
+          
+          :特性描述 "2个64" ;
+          
+          :板型结构 "Mini-ITX" ;
+          
+          :USB扩展接口 "1" ;
+          
+          :PCB规格 "迷你" ;
+          
+          :独家特色 "1.支持Q-Flash;2.支持Xpress" ;
+          
+          :显示输出接口 "有" ;
+          
+          :声卡类型 "Realtek" ;
+          
+          :内置音频接口 "支持" ;
+          
+          :是否支持交火 "不支持" ;
+          
+          :三通道支持 "不支持" ;
+          
+          :内存标准 "ddr3" ;
+          
+          :兼容系列 "支持LGA1150插槽处理器：Intel?" ;
+          
+          :声道数 "7.1声道" ;
+          
+          :SATA接口 "2" ;
+          
+          :COM扩展接口 "1" ;
+          
+          :DVI接口个数 "1" ;
+          
+          :集成显卡 "需要搭配内建GPU的处理器" ;
+          
+          :VGA接口 "1" ;
+          
+          :其它接口 "2个Wi-Fi天线接头孔" ;
+          
+          :内存容量 "null" ;
+          
+          :USB端口 "2个USB" ;
+          
+          :主_北桥芯片 :Intel ;
+          
+          :品牌 :技嘉 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#技嘉J1800M-D2P主板
+
+:技嘉J1800M-D2P主板 rdf:type :主板 ,
+                         owl:NamedIndividual ;
+                
+                :特性描述 "1.1个64" ;
+                
+                :最大内存容量 "16384.0mb" ;
+                
+                :HDMI接口个数 "1" ;
+                
+                :内存插槽个数 "2" ;
+                
+                :网卡类型 "Realtek?" ;
+                
+                :IDE接口 "0" ;
+                
+                :硬体监控 "1.系统电压侦测；2.CPU/系统温度侦测；3.CPU/系统风扇转速侦测；4.CPU/系统智能风扇控制" ;
+                
+                :接口类型 "板载CPU" ;
+                
+                :声卡特色 "S/PDIF输出" ;
+                
+                :声卡类型 "Realtek" ;
+                
+                :内存标准 "ddr3" ;
+                
+                :磁盘阵列 "不支持" ;
+                
+                :板型结构 "M-ATX" ;
+                
+                :最大网络速度 "10M/100M/1000M" ;
+                
+                :USB扩展接口 "2" ;
+                
+                :COM扩展接口 "2" ;
+                
+                :声道数 "7.1声道" ;
+                
+                :USB端口 "1个USB" ;
+                
+                :内置音频接口 "支持" ;
+                
+                :内存容量 "null" ;
+                
+                :三通道支持 "不支持" ;
+                
+                :音频接口 "3" ;
+                
+                :是否支持交火 "不支持" ;
+                
+                :独家特色 "1.支持Xpress" ;
+                
+                :兼容系列 "内建Intel?" ;
+                
+                :型号 "J1800M-D2P" ;
+                
+                :PS2 "1" ;
+                
+                :平台类型 "Intel平台" ;
+                
+                :板型大小 "19.0公分x" ;
+                
+                :芯片组 "null" ;
+                
+                :VGA接口 "1" ;
+                
+                :双通道支持 "支持" ;
+                
+                :显示输出接口 "有" ;
+                
+                :PCB规格 "小板" ;
+                
+                :电源接口 "24+4" ;
+                
+                :SATA接口 "2" ;
+                
+                :集成显卡 "需要搭配内建GPU的处理器" ;
+                
+                :LPT接口 "1" ;
+                
+                :SATA接口范围 "1" ;
+                
+                :主_北桥芯片 :Intel ;
+                
+                :品牌 :技嘉 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#捷高JG-3NCH64-C
+
+:捷高JG-3NCH64-C rdf:type :摄像头 ,
+                        owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#摩豹
+
+:摩豹 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#摩豹BK207寸超轻薄时尚蓝牙皮套键盘白色
+
+:摩豹BK207寸超轻薄时尚蓝牙皮套键盘白色 rdf:type :键盘 ,
+                                owl:NamedIndividual ;
+                       
+                       :尺寸 "206*144.5*0.7mm" ;
+                       
+                       :重量 "166.0g" ;
+                       
+                       :颜色 "[\"白\"]" ;
+                       
+                       :人体工学 "支持" ;
+                       
+                       :型号 "BK20蓝牙皮套键盘" ;
+                       
+                       :规格尺寸 "null" ;
+                       
+                       :类型 "蓝牙皮套键盘" ;
+                       
+                       :传输方式 "蓝牙" ;
+                       
+                       :品牌 :摩豹 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#旌宇
+
+:旌宇 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#旌宇GT7401GD5忍版
+
+:旌宇GT7401GD5忍版 rdf:type :显卡 ,
+                        owl:NamedIndividual ;
+               
+               :核心型号 "GeForce" ;
+               
+               :显存频率 "5.0ghz" ;
+               
+               :显存类型 "gddr5" ;
+               
+               :HDCP功能 "支持" ;
+               
+               :显存容量 "1024.0mb" ;
+               
+               :功耗 "60W" ;
+               
+               :CPU核心数量 "null" ;
+               
+               :VGA接口 "1" ;
+               
+               :显存位宽 "128-bit" ;
+               
+               :核心代号 "GK107" ;
+               
+               :最大分辨率 "4096*2160" ;
+               
+               :核心频率 "null" ;
+               
+               :DVI接口个数 "1" ;
+               
+               :接口类型 "null" ;
+               
+               :散热器类型 "风冷" ;
+               
+               :建议电源 "300W以上" ;
+               
+               :核心品牌 "NVIDIA" ;
+               
+               :电源接口 "无" ;
+               
+               :规格尺寸 "null" ;
+               
+               :DP接口个数 "0" ;
+               
+               :型号 "GT740" ;
+               
+               :是否外接供电 "不支持" ;
+               
+               :风扇调速 "支持" ;
+               
+               :HDMI接口个数 "1" ;
+               
+               :流处理单元 "384" ;
+               
+               :品牌 :旌宇 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#昂达(ONDA)
+
+<http://www.ecnu.ica.com/ditital#昂达(ONDA)> rdf:type :品牌 ,
+                                                    owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#昂达(ONDA）
+
+<http://www.ecnu.ica.com/ditital#昂达(ONDA）> rdf:type :品牌 ,
+                                                    owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#昂达GTX660典范2GD5
+
+:昂达GTX660典范2GD5 rdf:type :显卡 ,
+                         owl:NamedIndividual ;
+                
+                :功耗 "140W" ;
+                
+                :显存容量 "2048.0mb" ;
+                
+                :CPU核心数量 "null" ;
+                
+                :是否外接供电 "支持" ;
+                
+                :S端子 "不支持" ;
+                
+                :核心频率 "null" ;
+                
+                :风扇调速 "支持" ;
+                
+                :VGA接口 "0" ;
+                
+                :显存位宽 "192-bit" ;
+                
+                :DP接口个数 "1" ;
+                
+                :规格尺寸 "null" ;
+                
+                :HDCP功能 "支持" ;
+                
+                :显存类型 "gddr5" ;
+                
+                :核心代号 "GK106" ;
+                
+                :核心品牌 "NVIDIA" ;
+                
+                :核心型号 "GeForce" ;
+                
+                :接口类型 "null" ;
+                
+                :建议电源 "500W以上" ;
+                
+                :流处理单元 "960" ;
+                
+                :HDMI接口个数 "1" ;
+                
+                :尺寸 "241*111*35" ;
+                
+                :散热器类型 "风冷" ;
+                
+                :特性描述 "真正纯公版、最具性价比的玩家级显卡、原生960个流处理器、1年换新" ;
+                
+                :显存频率 "6.0ghz" ;
+                
+                :DVI接口个数 "2" ;
+                
+                :型号 "GTX660典范2GD5" ;
+                
+                :电源接口 "6pin" ;
+                
+                :最大分辨率 "2560*1600" ;
+                
+                :品牌 <http://www.ecnu.ica.com/ditital#昂达(ONDA）> .
+
+
+
+###  http://www.ecnu.ica.com/ditital#昂达GTX750神盾2GD5
+
+:昂达GTX750神盾2GD5 rdf:type :显卡 ,
+                         owl:NamedIndividual ;
+                
+                :显存容量 "2048.0mb" ;
+                
+                :规格尺寸 "null" ;
+                
+                :核心频率 "1.08ghz" ;
+                
+                :流处理单元 "512" ;
+                
+                :HDCP功能 "支持" ;
+                
+                :特性描述 "1年换全新、NVIDIA原装公版、双风扇顶级做工、次时代中端游戏显卡" ;
+                
+                :核心代号 "GM107" ;
+                
+                :电源接口 "无" ;
+                
+                :HDMI接口个数 "1" ;
+                
+                :建议电源 "300W以上" ;
+                
+                :接口类型 "null" ;
+                
+                :核心品牌 "NVIDIA" ;
+                
+                :尺寸 "235*111*35" ;
+                
+                :是否外接供电 "不支持" ;
+                
+                :显存类型 "gddr5" ;
+                
+                :VGA接口 "0" ;
+                
+                :显存频率 "5.0ghz" ;
+                
+                :DVI接口个数 "1" ;
+                
+                :风扇调速 "支持" ;
+                
+                :CPU核心数量 "null" ;
+                
+                :功耗 "45W" ;
+                
+                :显存位宽 "128-bit" ;
+                
+                :散热器类型 "风冷" ;
+                
+                :最大分辨率 "2560*1600" ;
+                
+                :型号 "GTX750神盾2GD5" ;
+                
+                :DP接口个数 "1" ;
+                
+                :核心型号 "GeForce" ;
+                
+                :品牌 <http://www.ecnu.ica.com/ditital#昂达(ONDA)> .
+
+
+
+###  http://www.ecnu.ica.com/ditital#明唐君豪F560N
+
+:明唐君豪F560N rdf:type :台式机 ,
+                    owl:NamedIndividual ;
+           
+           :电源功率 "250W" ;
+           
+           :平台类型 "Intel平台" ;
+           
+           :电源 "220V" ;
+           
+           :三级缓存 "6.0mb" ;
+           
+           :内存插槽个数 "2" ;
+           
+           :兼容操作系统 "Windows" ;
+           
+           :特性描述 "性能超强速度飞快的游戏款主机" ;
+           
+           :音频接口 "1" ;
+           
+           :转速 "7200rpm" ;
+           
+           :光驱类型 "null" ;
+           
+           :CPU核心数量 "四核" ;
+           
+           :LPT接口 "1" ;
+           
+           :鼠标 "有线鼠标" ;
+           
+           :规格尺寸 "null" ;
+           
+           :系列 "君豪" ;
+           
+           :机箱类型 "大机箱" ;
+           
+           :显存容量 "1024.0mb" ;
+           
+           :键盘类型 "有线键盘" ;
+           
+           :二级缓存 "2.0mb" ;
+           
+           :类型 "1" ;
+           
+           :推荐用途 "家用电脑" ;
+           
+           :芯片组 "Intel" ;
+           
+           :CPU "null" ;
+           
+           :最大存储扩展 "16384.0mb" ;
+           
+           :重量 "8700.0g" ;
+           
+           :型号 "F560N" ;
+           
+           :显存规格 "ddr5" ;
+           
+           :内存容量 "null" ;
+           
+           :容量 "60G" ;
+           
+           :硬盘 "null" ;
+           
+           :盘位数 "2" ;
+           
+           :显卡类型 "独立显卡" ;
+           
+           :显示芯片 "ATI" ;
+           
+           :视频接口 "[\"dvi\",\"hdmi\",\"dp\"]" ;
+           
+           :PS2 "2" ;
+           
+           :速度 "3.0ghz" ;
+           
+           :尺寸 "26.5(宽)*51.5(高)*53.5" ;
+           
+           :PCI槽_空闲_总数 "1" ;
+           
+           :网卡类型 "100Mbps以太网卡" ;
+           
+           :PCI-E "1" ;
+           
+           :声卡类型 "集成声卡" ;
+           
+           :USB端口 "4" ;
+           
+           :RJ-45网口 "支持" ;
+           
+           :CPU型号 :i5-4570 ;
+           
+           :主板 :null .
+
+
+
+###  http://www.ecnu.ica.com/ditital#明基
+
+:明基 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#明基GW2750HM
+
+:明基GW2750HM rdf:type :显示器 ,
+                     owl:NamedIndividual ;
+            
+            :内置音箱 "支持" ;
+            
+            :响应时间 "4.0ms" ;
+            
+            :DVI接口个数 "1" ;
+            
+            :响应范围 "5.0ms" ;
+            
+            :面板尺寸 "27.0寸" ;
+            
+            :屏幕比例 "16:9" ;
+            
+            :点距 "0.311mm" ;
+            
+            :接口类型 "null" ;
+            
+            :可视角度 "178/178" ;
+            
+            :HDCP功能 "支持" ;
+            
+            :DP接口个数 "0" ;
+            
+            :壁挂规格 "100x100mm" ;
+            
+            :面板类型 "MVA面板" ;
+            
+            :宽屏 "是" ;
+            
+            :亮度 "300cd/m2" ;
+            
+            :尺寸 "489x655x191mm" ;
+            
+            :是否支持壁挂 "支持" ;
+            
+            :VGA接口 "1" ;
+            
+            :外观颜色 "[\"黑\"]" ;
+            
+            :重量 "5500.0g" ;
+            
+            :USB接口 "无" ;
+            
+            :最佳分辨率 "1920" ;
+            
+            :底座 "普通" ;
+            
+            :HDMI接口个数 "1" ;
+            
+            :对比度 "静态对比3000：1，动态对比20M：1" ;
+            
+            :规格尺寸 "null" ;
+            
+            :颜色 "[\"黑\"]" ;
+            
+            :型号 "GW2750HM" ;
+            
+            :色数 "16.7M" ;
+            
+            :特性描述 "俯仰角-5~15°" ;
+            
+            :尺寸范围 "25.5寸" ;
+            
+            :LED "支持" ;
+            
+            :电源 "内置电源，最大耗电60W" ;
+            
+            :品牌 :明基 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#明基VZ2350HM
+
+:明基VZ2350HM rdf:type :显示器 ,
+                     owl:NamedIndividual ;
+            
+            :内置音箱 "支持" ;
+            
+            :壁挂规格 "100x100mm" ;
+            
+            :点距 "0.265mm" ;
+            
+            :特性描述 "超窄边框超薄护眼不闪屏IPS硬屏广视角" ;
+            
+            :重量 "5600.0g" ;
+            
+            :最佳分辨率 "1920" ;
+            
+            :尺寸范围 "22.5寸" ;
+            
+            :色数 "16.7M" ;
+            
+            :底座 "普通" ;
+            
+            :尺寸 "459x605x127" ;
+            
+            :DVI接口个数 "1" ;
+            
+            :颜色 "[\"黑\"]" ;
+            
+            :亮度 "250cd/m2" ;
+            
+            :HDMI接口个数 "1" ;
+            
+            :响应时间 "5.0ms" ;
+            
+            :面板尺寸 "23.0寸" ;
+            
+            :响应范围 "5.0ms" ;
+            
+            :LED "支持" ;
+            
+            :面板类型 "IPS面板" ;
+            
+            :电源 "内置" ;
+            
+            :HDCP功能 "支持" ;
+            
+            :USB接口 "无" ;
+            
+            :规格尺寸 "null" ;
+            
+            :VGA接口 "1" ;
+            
+            :外观颜色 "[\"黑\"]" ;
+            
+            :宽屏 "是" ;
+            
+            :接口类型 "null" ;
+            
+            :对比度 "1000:1" ;
+            
+            :是否支持壁挂 "支持" ;
+            
+            :可视角度 "178/178" ;
+            
+            :DP接口个数 "0" ;
+            
+            :屏幕比例 "16:9" ;
+            
+            :型号 "VZ2350HM" ;
+            
+            :品牌 :明基 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#映泰
+
+:映泰 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#映泰A78M
+
+:映泰A78M rdf:type :主板 ,
+                 owl:NamedIndividual ;
+        
+        :BIOS语言 "[[\"中\"],[\"英\"]]" ;
+        
+        :显示输出接口 "有" ;
+        
+        :内存标准 "ddr3" ;
+        
+        :电源接口 "24+4" ;
+        
+        :芯片组 "null" ;
+        
+        :SATA接口范围 "5" ;
+        
+        :CPU "TDP" ;
+        
+        :SATA接口 "6" ;
+        
+        :声道数 "7.1声道" ;
+        
+        :板型大小 "24.4cm" ;
+        
+        :最大网络速度 "10M/100M/1000M" ;
+        
+        :硬体监控 "BIOS中显示" ;
+        
+        :内置音频接口 "支持" ;
+        
+        :平台类型 "AMD平台" ;
+        
+        :COM扩展接口 "1" ;
+        
+        :型号 "A78M" ;
+        
+        :双通道支持 "支持" ;
+        
+        :独家特色 "支持" ;
+        
+        :PS2 "1" ;
+        
+        :声卡类型 "Realtek" ;
+        
+        :特性描述 "支持" ;
+        
+        :内存容量 "null" ;
+        
+        :接口类型 "FM2+/FM2" ;
+        
+        :VGA接口 "1" ;
+        
+        :兼容系列 "AMD" ;
+        
+        :供电 "五项供电" ;
+        
+        :USB扩展接口 "1" ;
+        
+        :LPT扩展接口 "1" ;
+        
+        :最大内存容量 "32768.0mb" ;
+        
+        :USB端口 "2" ;
+        
+        :集成显卡 "需要搭配内建GPU的处理器" ;
+        
+        :磁盘阵列 "支持" ;
+        
+        :DVI接口个数 "1" ;
+        
+        :PCB规格 "小板" ;
+        
+        :网卡类型 "Realtek" ;
+        
+        :音频接口 "3" ;
+        
+        :内存插槽个数 "2" ;
+        
+        :IDE接口 "0" ;
+        
+        :是否支持交火 "支持AMD" ;
+        
+        :三通道支持 "不支持" ;
+        
+        :板型结构 "M-ATX" ;
+        
+        :主_北桥芯片 :AMD ;
+        
+        :品牌 :映泰 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#未来人类X911
+
+:未来人类X911 rdf:type owl:NamedIndividual ;
+          
+          :显存容量 "16384mb" ;
+          
+          :CPU速度 "2.5ghz" ;
+          
+          :摄像头像素 "500万+100万" ;
+          
+          :音频接口 "1" ;
+          
+          :兼容操作系统 "Windows" ;
+          
+          :硬盘 "null" ;
+          
+          :型号 "X911-880MSLI-47SH1" ;
+          
+          :显示端口 "[\"hdmi\"]" ;
+          
+          :接口类型 "SATA" ;
+          
+          :光驱类型 "null" ;
+          
+          :物理分辨率 "1920*1080" ;
+          
+          :CPU核心数量 "四核" ;
+          
+          :净重 "4300.0g" ;
+          
+          :是否内置麦克风 "支持" ;
+          
+          :续航时间 "2~3小时" ;
+          
+          :内存标准 "ddr3" ;
+          
+          :局域网 "10/100/1000Mbps" ;
+          
+          :内存容量 "16384.0mb" ;
+          
+          :电源适配器 "Full" ;
+          
+          :电池 "8芯" ;
+          
+          :其他端口 "1" ;
+          
+          :固态硬盘 "134217728.0mb" ;
+          
+          :最大存储扩展 "32768.0mb" ;
+          
+          :芯片组 "Intel" ;
+          
+          :端口 "0" ;
+          
+          :显示比例 "16:9" ;
+          
+          :网络摄像头 "有" ;
+          
+          :特性描述 "双摄像头、雷电接口、RAID0、顶级双显卡" ;
+          
+          :触摸板 "支持" ;
+          
+          :电源 "null" ;
+          
+          :显卡类型 "null" ;
+          
+          :RJ-45网口 "支持" ;
+          
+          :显示芯片 "NVIDIA" ;
+          
+          :内存插槽个数 "4" ;
+          
+          :屏幕尺寸 "17.0寸" ;
+          
+          :USB3.0接口个数 "4" ;
+          
+          :尺寸 "419(W)" ;
+          
+          :显示器 "null" ;
+          
+          :系列 "X" ;
+          
+          :屏幕类型 "LED背光" ;
+          
+          :界面 "内置" ;
+          
+          :读卡器 "有" ;
+          
+          :键盘类型 "全尺寸背光键盘" ;
+          
+          :指纹识别 "支持" ;
+          
+          :平台类型 "Intel" ;
+          
+          :类型 "集显+独显" ;
+          
+          :内置蓝牙 "支持" ;
+          
+          :CPU类型 "第四代智能英特尔酷睿i7处理器" ;
+          
+          :屏幕规格 "17.3寸" ;
+          
+          :双显卡 "支持" ;
+          
+          :扬声器 "内置扬声器" ;
+          
+          :转速 "7200rpm" ;
+          
+          :颜色 "[\"黑\"]" ;
+          
+          :无线局域网 "支持" ;
+          
+          :CPU型号 :i7-4710MQ ;
+          
+          :处理器 :null .
+
+
+
+###  http://www.ecnu.ica.com/ditital#正睿
+
+:正睿 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#正睿ZI1TS3-4536M
+
+:正睿ZI1TS3-4536M rdf:type owl:NamedIndividual ;
+                
+                :电源 "ATX" ;
+                
+                :储存温度 "-40°C" ;
+                
+                :芯片组 "Intel" ;
+                
+                :显示芯片 "XGI?" ;
+                
+                :系列 "单路塔式服务器" ;
+                
+                :CPU频率 "3.1ghz" ;
+                
+                :支持CPU个数 "1" ;
+                
+                :硬盘位数量 "6" ;
+                
+                :扩展槽 "1" ;
+                
+                :光驱类型 "DVD-ROM" ;
+                
+                :CPU类型 "intel至强单路" ;
+                
+                :硬盘类型 "SATA3" ;
+                
+                :FSB_前端总线 "5GT/S" ;
+                
+                :重量 "22000.0g" ;
+                
+                :嵌入式网络控制器 "intel千兆" ;
+                
+                :工作温度 "10℃-35℃,20%-80%" ;
+                
+                :尺寸 "533mm×198mm×425mm" ;
+                
+                :结构 "塔式" ;
+                
+                :储存湿度 "20%" ;
+                
+                :型号 "ZI1TS3-4536M" ;
+                
+                :系统支持 "Windows" ;
+                
+                :图形卡 "XGI?" ;
+                
+                :内存容量 "null" ;
+                
+                :硬盘容量 "512000.0mb" ;
+                
+                :处理器描述 "xeon" ;
+                
+                :内存插槽个数 "4" ;
+                
+                :类别 "xeon" ;
+                
+                :工作湿度 "-40℃-65℃,5%-95%" ;
+                
+                :CPU缓存 "8.0mb" ;
+                
+                :内存标准 "ddr3" ;
+                
+                :最大内存容量 "32768.0mb" ;
+                
+                :磁盘阵列卡 :SATA ;
+                
+                :处理器 :null ;
+                
+                :主板 :null ;
+                
+                :品牌 :正睿 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#正睿正睿（ZRPGS）16GBRECCPC3-128001600MHz
+
+:正睿正睿（ZRPGS）16GBRECCPC3-128001600MHz rdf:type owl:NamedIndividual ;
+                                     
+                                     :内存容量 "null" ;
+                                     
+                                     :内存标准 "ddr3" ;
+                                     
+                                     :储存温度 "-40°C" ;
+                                     
+                                     :系列 "REG" ;
+                                     
+                                     :工作湿度 "-40℃-70℃,5%-95%" ;
+                                     
+                                     :储存湿度 "20%" ;
+                                     
+                                     :工作温度 "10℃-35℃,8%-90%" ;
+                                     
+                                     :品牌 :正睿 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#浦科特
+
+:浦科特 rdf:type :品牌 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#浦科特M6S系列256G2.5英寸SATA-3固态硬盘(PX-256M6S)
+
+<http://www.ecnu.ica.com/ditital#浦科特M6S系列256G2.5英寸SATA-3固态硬盘(PX-256M6S)> rdf:type :SSD固态硬盘 ,
+                                                                                  owl:NamedIndividual ;
+                                                                         
+                                                                         :规格尺寸 "null" ;
+                                                                         
+                                                                         :缓存 "512.0mb" ;
+                                                                         
+                                                                         :接口类型 "SATA3" ;
+                                                                         
+                                                                         :TRIM "支持" ;
+                                                                         
+                                                                         :颗粒 "mlc" ;
+                                                                         
+                                                                         :系列 "M6S系列" ;
+                                                                         
+                                                                         :型号 "PX-256M6S" ;
+                                                                         
+                                                                         :读写速度 "连续读取速度：高达520" ;
+                                                                         
+                                                                         :尺寸 "100mm" ;
+                                                                         
+                                                                         :容量 "256GB" ;
+                                                                         
+                                                                         :类别 "2.5英寸固态硬盘" ;
+                                                                         
+                                                                         :特性描述 "Plextor浦科特M6S" ;
+                                                                         
+                                                                         :主控 :Marvell ;
+                                                                         
+                                                                         :品牌 :浦科特 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#海盗船Obsidian系列900D哥斯拉
+
+:海盗船Obsidian系列900D哥斯拉 rdf:type :机箱 ,
+                               owl:NamedIndividual ;
+                      
+                      :硬盘位数量 "9" ;
+                      
+                      :光驱位 "4" ;
+                      
+                      :散热系统 "null" ;
+                      
+                      :颜色 "[\"黑\"]" ;
+                      
+                      :材质 "拉丝铝制与全铸铝" ;
+                      
+                      :重量 "18.6g" ;
+                      
+                      :电源 "不带电源" ;
+                      
+                      :风扇位 "1" ;
+                      
+                      :规格尺寸 "null" ;
+                      
+                      :类型 "全塔式机箱" ;
+                      
+                      :尺寸 "649.6" ;
+                      
+                      :特性描述 "?" ;
+                      
+                      :型号 "900D" ;
+                      
+                      :主板 <http://www.ecnu.ica.com/ditital#ATX,> ;
+                      
+                      :品牌 :海盗船（Corsair） .
+
+
+
+###  http://www.ecnu.ica.com/ditital#海盗船（Corsair）
+
+:海盗船（Corsair） rdf:type :品牌 ,
+                       owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#游戏伙伴HB500S
+
+:游戏伙伴HB500S rdf:type :电源 ,
+                     owl:NamedIndividual ;
+            
+            :PFC "主动PFC" ;
+            
+            :输入电压 "200-240v" ;
+            
+            :峰值 "650W" ;
+            
+            :额定功率 "500W" ;
+            
+            :D型4pin接口 "4" ;
+            
+            :SATA接口 "1" ;
+            
+            :支持温控 "支持" ;
+            
+            :型号 "猎刃HB500S" ;
+            
+            :风扇 "12cm" ;
+            
+            :类型 "ATX" ;
+            
+            :电源线长 "15000.0mm" ;
+            
+            :安全认证 "CCC" ;
+            
+            :尺寸 "150x160x85mm" ;
+            
+            :效率 "85%" ;
+            
+            :规格尺寸 "null" ;
+            
+            :CPU "12V供电接口" ;
+            
+            :重量 "1530.0g" ;
+            
+            :特性描述 "双管正激+主动式PFC设计/军工级大品牌元件/多重保护设计（过电压、过电流、过载及短路保护）/支持完美背部走线" ;
+            
+            :电源接口 "20+4" ;
+            
+            :支持宽幅 "是" ;
+            
+            :品牌 :游戏伙伴（G-PARTNERS） .
+
+
+
+###  http://www.ecnu.ica.com/ditital#游戏伙伴（G-PARTNERS）
+
+:游戏伙伴（G-PARTNERS） rdf:type :品牌 ,
+                           owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#爱国者
+
+:爱国者 rdf:type :品牌 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#爱国者U200
+
+:爱国者U200 rdf:type :U盘 ,
+                  owl:NamedIndividual ;
+         
+         :最大写入速度 "4mbps" ;
+         
+         :容量 "8G" ;
+         
+         :型号 "U200" ;
+         
+         :规格尺寸 "null" ;
+         
+         :最大读取速度 "8mbps" ;
+         
+         :重量 "5.3g" ;
+         
+         :独特设计 "采用竹简作为设计元素；采用压铸电镀工艺，外观镭射产品容量，古色古香，彰显品位" ;
+         
+         :颜色 "[\"银\"]" ;
+         
+         :尺寸 "裸机：35*12.3*4.7mm" ;
+         
+         :品牌 :爱国者 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#爱国者U230
+
+:爱国者U230 rdf:type :U盘 ,
+                  owl:NamedIndividual ;
+         
+         :最大写入速度 "4mbps" ;
+         
+         :重量 "5.0g" ;
+         
+         :型号 "U230" ;
+         
+         :容量 "8G" ;
+         
+         :最大读取速度 "8mbps" ;
+         
+         :尺寸 "23*17*6mm" ;
+         
+         :LED指示灯 "不支持" ;
+         
+         :颜色 "[\"金\"]" ;
+         
+         :独特设计 "小U" ;
+         
+         :外壳材质 "塑料" ;
+         
+         :规格尺寸 "null" ;
+         
+         :品牌 :爱国者 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#狼途L6沙漠狼
+
+:狼途L6沙漠狼 rdf:type :键盘 ,
+                  owl:NamedIndividual ;
+         
+         :尺寸 "470*220*33MM" ;
+         
+         :接口类型 "USB" ;
+         
+         :类型 "有线键盘" ;
+         
+         :规格尺寸 "null" ;
+         
+         :重量 "1600.0g" ;
+         
+         :颜色 "[\"红\"]" ;
+         
+         :传输方式 "线缆" ;
+         
+         :型号 "L6" ;
+         
+         :品牌 :狼途Langtu .
+
+
+
+###  http://www.ecnu.ica.com/ditital#狼途Langtu
+
+:狼途Langtu rdf:type :品牌 ,
+                   owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#环宇飞扬
+
+:环宇飞扬 rdf:type :品牌 ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#环宇飞扬5836MW
+
+:环宇飞扬5836MW rdf:type :摄像头 ,
+                     owl:NamedIndividual ;
+            
+            :最大帧数 "30fps" ;
+            
+            :颜色 "[\"黑\"]" ;
+            
+            :型号 "5836MW" ;
+            
+            :视像解像度_分辨率 "1028*720" ;
+            
+            :传感器 "CMOS" ;
+            
+            :像素 "100万" ;
+            
+            :产品规格 "null" ;
+            
+            :麦克风 "内置" ;
+            
+            :品牌 :环宇飞扬 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#现代幻影HY-KV811
+
+:现代幻影HY-KV811 rdf:type :键盘 ,
+                       owl:NamedIndividual ;
+              
+              :传输方式 "线缆" ;
+              
+              :颜色 "[\"黑\"]" ;
+              
+              :类型 "游戏背光键盘" ;
+              
+              :接口类型 "USB" ;
+              
+              :规格尺寸 "null" ;
+              
+              :尺寸 "长宽高：465*179*30mm" ;
+              
+              :型号 "HY-KV811" ;
+              
+              :其他特性 "线长：1.5米" ;
+              
+              :重量 "761.0g" ;
+              
+              :人体工学 "支持" ;
+              
+              :品牌 :现代（HYUNDAI） .
+
+
+
+###  http://www.ecnu.ica.com/ditital#现代（HYUNDAI）
+
+:现代（HYUNDAI） rdf:type :品牌 ,
+                      owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#盈通
+
+:盈通 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#盈通GTX750Ti-2048GD5PB
+
+:盈通GTX750Ti-2048GD5PB rdf:type :显卡 ,
+                               owl:NamedIndividual ;
+                      
+                      :功耗 "75W" ;
+                      
+                      :显存位宽 "128-bit" ;
+                      
+                      :接口类型 "null" ;
+                      
+                      :流处理单元 "640" ;
+                      
+                      :核心型号 "GeForece" ;
+                      
+                      :是否外接供电 "支持" ;
+                      
+                      :电源接口 "6pin" ;
+                      
+                      :CPU核心数量 "null" ;
+                      
+                      :建议电源 "400W以上" ;
+                      
+                      :核心代号 "GM107" ;
+                      
+                      :DP接口个数 "0" ;
+                      
+                      :显存容量 "2048.0mb" ;
+                      
+                      :VGA接口 "0" ;
+                      
+                      :显存类型 "gddr5" ;
+                      
+                      :规格尺寸 "null" ;
+                      
+                      :DVI接口个数 "2" ;
+                      
+                      :特性描述 "豪华双热管智能双风扇" ;
+                      
+                      :HDMI接口个数 "0" ;
+                      
+                      :散热器类型 "风冷" ;
+                      
+                      :显存频率 "5.4ghz" ;
+                      
+                      :尺寸 "225*120*40mm" ;
+                      
+                      :核心频率 "1.02ghz" ;
+                      
+                      :风扇调速 "支持" ;
+                      
+                      :最大分辨率 "2560*1600" ;
+                      
+                      :核心品牌 "NVIDIA" ;
+                      
+                      :型号 "GTX750Ti-2048GD5" ;
+                      
+                      :品牌 :盈通 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#神舟战神K680E-i7D1
+
+:神舟战神K680E-i7D1 rdf:type owl:NamedIndividual ;
+                
+                :接口类型 "SATA" ;
+                
+                :显示比例 "16:9" ;
+                
+                :读卡器 "有" ;
+                
+                :净重 "3300.0g" ;
+                
+                :局域网 "10/100/1000Mbps" ;
+                
+                :型号 "战神K680E-i7" ;
+                
+                :三级缓存 "6.0mb" ;
+                
+                :内存容量 "16384.0mb" ;
+                
+                :显示芯片 "HD4600+GTX880M" ;
+                
+                :电源 "null" ;
+                
+                :硬盘容量 "134217728.0mb" ;
+                
+                :内置3G "不支持" ;
+                
+                :摄像头像素 "200万" ;
+                
+                :内置蓝牙 "支持" ;
+                
+                :屏幕尺寸 "15.0寸" ;
+                
+                :芯片组 "英特尔HM87芯片组" ;
+                
+                :端口 "0" ;
+                
+                :内建GPU "支持" ;
+                
+                :硬盘 "null" ;
+                
+                :最大存储扩展 "32768.0mb" ;
+                
+                :是否内置麦克风 "支持" ;
+                
+                :USB3.0接口个数 "3" ;
+                
+                :特性描述 "GTX880M" ;
+                
+                :类型 "集显+独显" ;
+                
+                :兼容操作系统 "Linux" ;
+                
+                :屏幕规格 "15.6寸" ;
+                
+                :扬声器 "内置扬声器" ;
+                
+                :颜色 "[\"黑\"]" ;
+                
+                :USB2.0接口个数 "1" ;
+                
+                :RJ-45网口 "支持" ;
+                
+                :内置3G模块 "不支持" ;
+                
+                :内存标准 "ddr3" ;
+                
+                :CPU核心数量 "四核" ;
+                
+                :显存容量 "8192.0mb" ;
+                
+                :系列 "战神" ;
+                
+                :尺寸 "375*268*22-45mm" ;
+                
+                :网络摄像头 "有" ;
+                
+                :内存插槽个数 "4" ;
+                
+                :特征 "1080P高清屏" ;
+                
+                :显卡类型 "null" ;
+                
+                :音频接口 "1" ;
+                
+                :电池 "8芯" ;
+                
+                :无线局域网 "支持" ;
+                
+                :平台类型 "Intel" ;
+                
+                :CPU类型 "第四代智能英特尔酷睿i7处理器" ;
+                
+                :屏幕类型 "LED背光" ;
+                
+                :键盘类型 "多彩背光键盘" ;
+                
+                :显示器 "null" ;
+                
+                :CPU速度 "2.5ghz" ;
+                
+                :续航时间 "2~3小时" ;
+                
+                :显示端口 "[\"vga\"]" ;
+                
+                :固态硬盘 "131072.0mb" ;
+                
+                :光驱类型 "null" ;
+                
+                :物理分辨率 "1920*1080" ;
+                
+                :触摸板 "支持" ;
+                
+                :其他端口 "1个mini" ;
+                
+                :电源适配器 "19V" ;
+                
+                :CPU型号 :i7-4710MQ ;
+                
+                :处理器 :null .
+
+
+
+###  http://www.ecnu.ica.com/ditital#秋叶原
+
+:秋叶原 rdf:type :品牌 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#秋叶原QS-A658-3M
+
+:秋叶原QS-A658-3M rdf:type :插座 ,
+                        owl:NamedIndividual ;
+               
+               :额定电流 "10A" ;
+               
+               :输出线长度 "30000.0mm" ;
+               
+               :额定功率 "2500W" ;
+               
+               :型号 "QS-A658-3M" ;
+               
+               :其他特性 "内部铜带连接" ;
+               
+               :插孔数量 "1" ;
+               
+               :额定电压 "250v" ;
+               
+               :规格尺寸 "null" ;
+               
+               :品牌 :秋叶原 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#科欧斯K3915M
+
+:科欧斯K3915M rdf:type :显示器 ,
+                    owl:NamedIndividual ;
+           
+           :面板尺寸 "39.0寸" ;
+           
+           :内置音箱 "支持" ;
+           
+           :是否支持壁挂 "支持" ;
+           
+           :颜色 "[\"黑\"]" ;
+           
+           :响应范围 "5.0ms" ;
+           
+           :HDCP功能 "支持" ;
+           
+           :USB接口 "无" ;
+           
+           :DVI接口个数 "1" ;
+           
+           :宽屏 "是" ;
+           
+           :VGA接口 "1" ;
+           
+           :屏幕比例 "16:9" ;
+           
+           :型号 "K3915M" ;
+           
+           :DP接口个数 "1" ;
+           
+           :外观颜色 "[\"黑\"]" ;
+           
+           :亮度 "300cd/m2" ;
+           
+           :最佳分辨率 "3840*2160" ;
+           
+           :对比度 "1000:1" ;
+           
+           :底座 "普通" ;
+           
+           :可视角度 "176" ;
+           
+           :点距 "0.22mm" ;
+           
+           :LED "支持" ;
+           
+           :接口类型 "null" ;
+           
+           :响应时间 "5.0ms" ;
+           
+           :色数 "1.07B" ;
+           
+           :规格尺寸 "null" ;
+           
+           :壁挂规格 "100x100mm" ;
+           
+           :尺寸范围 "30.0寸" ;
+           
+           :HDMI接口个数 "1" ;
+           
+           :面板类型 "MVA面板" ;
+           
+           :品牌 :KOIOS .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网件
+
+:网件 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#网件WNR2000
+
+:网件WNR2000 rdf:type :路由器 ,
+                    owl:NamedIndividual ;
+           
+           :尺寸 "177.5" ;
+           
+           :无线桥接 "支持" ;
+           
+           :传输标准 "IEEE" ;
+           
+           :重量 "269.0g" ;
+           
+           :网络协议 "TCP/IP协议" ;
+           
+           :类型 "无线路由" ;
+           
+           :支持WPS "支持" ;
+           
+           :Qos限速功能 "支持" ;
+           
+           :传输频段 "2.4ghz" ;
+           
+           :型号 "WNR2000" ;
+           
+           :Wan口数量_无线路由 "1" ;
+           
+           :Lan口数量 "4" ;
+           
+           :无线传输率 "300mbps" ;
+           
+           :天线可拆卸 "不支持" ;
+           
+           :品牌 :网件 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#罗技
+
+:罗技 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#罗技G602
+
+:罗技G602 rdf:type :鼠标 ,
+                 owl:NamedIndividual ;
+        
+        :型号 "G602" ;
+        
+        :线长 "20000.0mm" ;
+        
+        :鼠标分辨率 "2500dpi" ;
+        
+        :规格尺寸 "null" ;
+        
+        :其他特性 "革新性达成超长250小时游戏时间" ;
+        
+        :人体工学 "支持" ;
+        
+        :接口类型 "USB" ;
+        
+        :颜色 "[\"黑\"]" ;
+        
+        :类型 "无线鼠标" ;
+        
+        :鼠标尺寸 "140*93*211mm" ;
+        
+        :传输方式 "线缆" ;
+        
+        :重量 "160.0g" ;
+        
+        :按键数 "11" ;
+        
+        :品牌 :罗技 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#罗雅真龙在天
+
+:罗雅真龙在天 rdf:type :U盘 ,
+                 owl:NamedIndividual ;
+        
+        :外壳材质 "金属" ;
+        
+        :最大读取速度 "18mbps" ;
+        
+        :颜色 "[\"红\"]" ;
+        
+        :尺寸 "36*8*18mm" ;
+        
+        :最大写入速度 "6mbps" ;
+        
+        :容量 "4G" ;
+        
+        :规格尺寸 "null" ;
+        
+        :独特设计 "皇家珐琅工艺搭配施华洛世奇水晶元素" ;
+        
+        :重量 "33.0g" ;
+        
+        :品牌 :JUJU .
+
+
+
+###  http://www.ecnu.ica.com/ditital#联发科MT6592
+
+:联发科MT6592 rdf:type :处理器 ,
+                    owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#联想
+
+:联想 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#联想IdeaPadYoga11S
+
+:联想IdeaPadYoga11S rdf:type owl:NamedIndividual ;
+                  
+                  :电池 "42Wh超大容量电池" ;
+                  
+                  :物理分辨率 "1366" ;
+                  
+                  :电源适配器 "45W超便携适配器" ;
+                  
+                  :内存标准 "ddr3" ;
+                  
+                  :显示端口 "[\"hdmi\"]" ;
+                  
+                  :音频接口 "标准接口，喇叭输出与话筒输入二合一" ;
+                  
+                  :显存容量 "高速共享显存" ;
+                  
+                  :平台类型 "Intel" ;
+                  
+                  :CPU速度 "1.5ghz" ;
+                  
+                  :触摸板 "支持" ;
+                  
+                  :硬盘容量 "131072.0mb" ;
+                  
+                  :光驱类型 "null" ;
+                  
+                  :内存容量 "2048.0mb" ;
+                  
+                  :电源 "null" ;
+                  
+                  :内存插槽个数 "1" ;
+                  
+                  :最大存储扩展 "4096.0mb" ;
+                  
+                  :是否内置麦克风 "支持" ;
+                  
+                  :CPU核心数量 "双核" ;
+                  
+                  :CPU类型 "第三代智能英特尔酷睿i5处理器" ;
+                  
+                  :颜色 "[\"银\"]" ;
+                  
+                  :屏幕尺寸 "11.0寸" ;
+                  
+                  :显示器 "null" ;
+                  
+                  :指纹识别 "不支持" ;
+                  
+                  :显示比例 "16:9" ;
+                  
+                  :系列 "IdeaPad" ;
+                  
+                  :类型 "核芯显卡" ;
+                  
+                  :续航时间 "6小时" ;
+                  
+                  :接口类型 "mSATA" ;
+                  
+                  :面部识别 "不支持" ;
+                  
+                  :内置蓝牙 "支持" ;
+                  
+                  :显示芯片 "HD4000" ;
+                  
+                  :屏幕规格 "11.6寸" ;
+                  
+                  :三级缓存 "3.0mb" ;
+                  
+                  :网络摄像头 "有" ;
+                  
+                  :内置3G "不支持" ;
+                  
+                  :无线局域网 "支持" ;
+                  
+                  :端口 "0" ;
+                  
+                  :尺寸 "298" ;
+                  
+                  :芯片组 "INTEL" ;
+                  
+                  :兼容操作系统 "Windows" ;
+                  
+                  :扬声器 "第四代杜比家庭影院技术" ;
+                  
+                  :屏幕类型 "IPS广视角炫彩屏，支持十点触控，LED背光" ;
+                  
+                  :硬盘 "null" ;
+                  
+                  :随机系统 "Windows" ;
+                  
+                  :摄像头像素 "720P高清网络摄像头" ;
+                  
+                  :净重 "1350.0g" ;
+                  
+                  :USB端口 "USB2.0X1，USB3.0X1" ;
+                  
+                  :读卡器 "有" ;
+                  
+                  :显卡类型 "null" ;
+                  
+                  :型号 "Yoga11S-i5" ;
+                  
+                  :键盘类型 "高触感巧克力键盘" ;
+                  
+                  :CPU型号 :i5-3339Y ;
+                  
+                  :处理器 :null ;
+                  
+                  :品牌 :联想 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#联想扬天M4630n-00
+
+:联想扬天M4630n-00 rdf:type :台式机 ,
+                        owl:NamedIndividual ;
+               
+               :键盘类型 "有线键盘" ;
+               
+               :容量 "500G" ;
+               
+               :分辨率 "1600*900" ;
+               
+               :网卡类型 "1000Mbps以太网卡" ;
+               
+               :硬盘 "null" ;
+               
+               :显示器 "null" ;
+               
+               :视频接口 "[\"vga\"]" ;
+               
+               :规格尺寸 "null" ;
+               
+               :内存容量 "null" ;
+               
+               :系列 "扬天" ;
+               
+               :机箱类型 "大机箱" ;
+               
+               :最大存储扩展 "16384.0mb" ;
+               
+               :CPU核心数量 "双核" ;
+               
+               :芯片组 "H81" ;
+               
+               :兼容操作系统 "Windows" ;
+               
+               :PCI-E "1" ;
+               
+               :鼠标 "有线鼠标" ;
+               
+               :特性描述 "中国节能认证、中国十环认证、中国ROHS(无铅)认证、国家电磁兼容标准B级(最高级)" ;
+               
+               :声卡类型 "集成声卡" ;
+               
+               :显示芯片 "GT" ;
+               
+               :平台类型 "Intel平台" ;
+               
+               :型号 "M4630n-00" ;
+               
+               :宽屏 "是" ;
+               
+               :CPU "null" ;
+               
+               :类型 "DVD光驱" ;
+               
+               :尺寸 "414.5*175(前面板)*417.8" ;
+               
+               :显卡类型 "独立显卡" ;
+               
+               :三级缓存 "3.0mb" ;
+               
+               :显存容量 "1024.0mb" ;
+               
+               :内存插槽个数 "2" ;
+               
+               :速度 "3.0ghz" ;
+               
+               :重量 "14000.0g" ;
+               
+               :转速 "7200rpm" ;
+               
+               :COM "串口" ;
+               
+               :光驱类型 "null" ;
+               
+               :USB端口 "2*USB3.0+2*USB2.0" ;
+               
+               :音频接口 "3" ;
+               
+               :电源功率 "180W" ;
+               
+               :RJ-45网口 "支持" ;
+               
+               :推荐用途 "商用电脑" ;
+               
+               :CPU型号 :G3250 ;
+               
+               :主板 :null .
+
+
+
+###  http://www.ecnu.ica.com/ditital#艾芮克
+
+:艾芮克 rdf:type :品牌 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#艾芮克IM1R-BK
+
+:艾芮克IM1R-BK rdf:type :鼠标 ,
+                     owl:NamedIndividual ;
+            
+            :线长 "1500.0mm" ;
+            
+            :按键数 "6" ;
+            
+            :人体工学 "支持" ;
+            
+            :类型 "有线鼠标" ;
+            
+            :颜色 "[\"黑\"]" ;
+            
+            :型号 "IM1R-BK" ;
+            
+            :传输方式 "线缆" ;
+            
+            :接口类型 "USB" ;
+            
+            :规格尺寸 "null" ;
+            
+            :鼠标分辨率 "450/900/1800DPI" ;
+            
+            :鼠标尺寸 "113mm(L)*63mm(W)*39" ;
+            
+            :重量 "120.0g" ;
+            
+            :品牌 :艾芮克 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#苹果iPadminiMF246CH/A
+
+<http://www.ecnu.ica.com/ditital#苹果iPadminiMF246CH/A> rdf:type :平板电脑 ,
+                                                               owl:NamedIndividual ;
+                                                      
+                                                      :扬声器 "有" ;
+                                                      
+                                                      :屏幕尺寸 "7.9寸" ;
+                                                      
+                                                      :净重 "341.0g" ;
+                                                      
+                                                      :兼容操作系统 "IOS" ;
+                                                      
+                                                      :屏幕描述 "LED" ;
+                                                      
+                                                      :重力感应 "支持" ;
+                                                      
+                                                      :电池类型 "内置" ;
+                                                      
+                                                      :续航时间 "使用无线网络浏览网页，或观看视频，或聆听音乐，使用时间长达" ;
+                                                      
+                                                      :特性描述 "三轴陀螺仪" ;
+                                                      
+                                                      :电源 "null" ;
+                                                      
+                                                      :视频接口 "Lightning" ;
+                                                      
+                                                      :存储容量 "65536.0mb" ;
+                                                      
+                                                      :颜色 "[\"银\"]" ;
+                                                      
+                                                      :尺寸 "200×134.7×7.5mm" ;
+                                                      
+                                                      :音频接口 "3.5" ;
+                                                      
+                                                      :屏幕类型 "IPS" ;
+                                                      
+                                                      :规格尺寸 "null" ;
+                                                      
+                                                      :光线感应 "支持" ;
+                                                      
+                                                      :蓝牙功能 "支持" ;
+                                                      
+                                                      :WIFI功能 "支持" ;
+                                                      
+                                                      :屏幕分辨率 "2048" ;
+                                                      
+                                                      :端口 "0" ;
+                                                      
+                                                      :材质 "铝合金" ;
+                                                      
+                                                      :型号 "MF246CH/A" ;
+                                                      
+                                                      :摄像头 "iSight" ;
+                                                      
+                                                      :内置3G "支持" ;
+                                                      
+                                                      :麦克风 "有" ;
+                                                      
+                                                      :电池容量 "23.8Whr" ;
+                                                      
+                                                      :处理器 :A7 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#莱斯
+
+:莱斯 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#莱斯5bigNASPro
+
+:莱斯5bigNASPro rdf:type :移动硬盘 ,
+                       owl:NamedIndividual ;
+              
+              :重量 "4.7g" ;
+              
+              :电源 "100-240Vca" ;
+              
+              :规格尺寸 "null" ;
+              
+              :容量 "0TB" ;
+              
+              :型号 "9000362AS" ;
+              
+              :尺寸 "173" ;
+              
+              :外观颜色 "[\"银\"]" ;
+              
+              :系列 "5big" ;
+              
+              :外部输出接口 "2" ;
+              
+              :硬盘接口 "SATA" ;
+              
+              :外壳材质 "金属" ;
+              
+              :LED指示灯 "支持" ;
+              
+              :硬盘尺寸 "3.5寸" ;
+              
+              :品牌 :莱斯 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#莱斯9000445
+
+:莱斯9000445 rdf:type :U盘 ,
+                    owl:NamedIndividual ;
+           
+           :重量 "57.0g" ;
+           
+           :容量 "128G" ;
+           
+           :尺寸 "74" ;
+           
+           :颜色 "[\"银\"]" ;
+           
+           :型号 "9000445" ;
+           
+           :最大读取速度 "读取速度最高可达" ;
+           
+           :外壳材质 "金属" ;
+           
+           :系列 "XtremKey" ;
+           
+           :规格尺寸 "null" ;
+           
+           :LED指示灯 "不支持" ;
+           
+           :品牌 :莱斯 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#莱斯9000488
+
+:莱斯9000488 rdf:type :移动硬盘 ,
+                    owl:NamedIndividual ;
+           
+           :外部输出接口 "USB" ;
+           
+           :容量 "1TB" ;
+           
+           :外壳材质 "橡胶+金属" ;
+           
+           :LED指示灯 "支持" ;
+           
+           :缓存 "64.0mb" ;
+           
+           :硬盘尺寸 "2.5寸" ;
+           
+           :型号 "9000488" ;
+           
+           :硬盘接口 "SATA" ;
+           
+           :外观颜色 "[\"橘\",\"银\"]" ;
+           
+           :尺寸 "89" ;
+           
+           :转速 "5400rpm" ;
+           
+           :电源 "无" ;
+           
+           :规格尺寸 "null" ;
+           
+           :重量 "350.0g" ;
+           
+           :系列 "Rugged" ;
+           
+           :品牌 :莱斯 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#莱斯9000489
+
+:莱斯9000489 rdf:type :移动硬盘 ,
+                    owl:NamedIndividual ;
+           
+           :电源 "无" ;
+           
+           :硬盘接口 "SATA" ;
+           
+           :缓存 "64.0mb" ;
+           
+           :尺寸 "89" ;
+           
+           :外壳材质 "橡胶+金属" ;
+           
+           :型号 "9000489" ;
+           
+           :容量 "2TB" ;
+           
+           :规格尺寸 "null" ;
+           
+           :重量 "350.0g" ;
+           
+           :外部输出接口 "USB" ;
+           
+           :外观颜色 "[\"橘\",\"银\"]" ;
+           
+           :系列 "Rugged" ;
+           
+           :LED指示灯 "支持" ;
+           
+           :硬盘尺寸 "2.5寸" ;
+           
+           :转速 "5400rpm" ;
+           
+           :品牌 :莱斯 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#西部数据
+
+:西部数据 rdf:type :品牌 ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#西部数据WD4003FZEX
+
+:西部数据WD4003FZEX rdf:type :硬盘 ,
+                         owl:NamedIndividual ;
+                
+                :工作温度 "5°C" ;
+                
+                :尺寸 "101.6*147*26.1mm" ;
+                
+                :缓存 "64.0mb" ;
+                
+                :型号 "WD4003FZEX" ;
+                
+                :接口类型 "SATA" ;
+                
+                :储存温度 "-40°C" ;
+                
+                :转速 "7200rpm" ;
+                
+                :容量 "4TB" ;
+                
+                :规格尺寸 "null" ;
+                
+                :品牌 :西部数据 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#赛睿
+
+:赛睿 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#赛睿QcKMini鼠标垫
+
+:赛睿QcKMini鼠标垫 rdf:type :鼠标垫 ,
+                       owl:NamedIndividual ;
+              
+              :种类 "布垫" ;
+              
+              :名称 "QcK" ;
+              
+              :其他特性 "拥有防滑橡胶底和优化的布制表面" ;
+              
+              :规格尺寸 "null" ;
+              
+              :尺寸 "250mm" ;
+              
+              :品牌 :赛睿 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#超频三
+
+:超频三 rdf:type :品牌 ,
+              owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#超频三黑晶F-126B
+
+:超频三黑晶F-126B rdf:type :散热器 ,
+                      owl:NamedIndividual ;
+             
+             :风扇转速_RPM "1rpm" ;
+             
+             :产品类别 "机箱风扇" ;
+             
+             :电源接口 "3pin" ;
+             
+             :风扇尺寸 "120(L)x120(W)x25(H)" ;
+             
+             :风量 "47CFM" ;
+             
+             :噪音 "18.0db" ;
+             
+             :型号 "黑晶F-126B" ;
+             
+             :散热方式 "风冷" ;
+             
+             :规格尺寸 "null" ;
+             
+             :品牌 :超频三 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#迪兰恒进
+
+:迪兰恒进 rdf:type :品牌 ,
+               owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#迪兰恒进HD7770超能1GDS
+
+:迪兰恒进HD7770超能1GDS rdf:type :显卡 ,
+                           owl:NamedIndividual ;
+                  
+                  :是否外接供电 "支持" ;
+                  
+                  :核心频率 "null" ;
+                  
+                  :显存容量 "1024.0mb" ;
+                  
+                  :HDCP功能 "支持" ;
+                  
+                  :CPU核心数量 "null" ;
+                  
+                  :接口类型 "null" ;
+                  
+                  :核心代号 "Cape" ;
+                  
+                  :规格尺寸 "null" ;
+                  
+                  :核心品牌 "ATI" ;
+                  
+                  :风扇调速 "支持" ;
+                  
+                  :DVI接口个数 "1" ;
+                  
+                  :显存频率 "4.5ghz" ;
+                  
+                  :流处理单元 "640" ;
+                  
+                  :核心型号 "Radeon" ;
+                  
+                  :显存类型 "gddr5" ;
+                  
+                  :显存位宽 "128-bit" ;
+                  
+                  :散热器类型 "风冷" ;
+                  
+                  :HDMI接口个数 "1" ;
+                  
+                  :最大分辨率 "2560*1600" ;
+                  
+                  :电源接口 "6pin" ;
+                  
+                  :VGA接口 "1" ;
+                  
+                  :建议电源 "450W以上" ;
+                  
+                  :型号 "HD7770" ;
+                  
+                  :品牌 :迪兰恒进 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#酷冷
+
+:酷冷 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#酷冷至尊酷妈凉膏（40g）
+
+:酷冷至尊酷妈凉膏（40g） rdf:type :散热器 ,
+                        owl:NamedIndividual ;
+               
+               :型号 "酷妈凉膏" ;
+               
+               :产品类别 "其他散热附件" ;
+               
+               :品牌 :酷冷 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#金士顿DTIG4128GB
+
+:金士顿DTIG4128GB rdf:type :U盘 ,
+                        owl:NamedIndividual ;
+               
+               :最大读取速度 "2.0mbps" ;
+               
+               :颜色 "[\"绿\"]" ;
+               
+               :规格尺寸 "null" ;
+               
+               :最大写入速度 "2.0mbps" ;
+               
+               :容量 "128G" ;
+               
+               :系列 "DTIG4" ;
+               
+               :尺寸 "55mm" ;
+               
+               :型号 "DTIG4/128GB" ;
+               
+               :LED指示灯 "不支持" .
+
+
+
+###  http://www.ecnu.ica.com/ditital#金胜
+
+:金胜 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#金胜N380系列256GM.2NGFFSATA3固态硬盘
+
+:金胜N380系列256GM.2NGFFSATA3固态硬盘 rdf:type :SSD固态硬盘 ,
+                                       owl:NamedIndividual ;
+                              
+                              :系列 "N380系列" ;
+                              
+                              :颗粒 "原厂颗粒" ;
+                              
+                              :TRIM "支持" ;
+                              
+                              :缓存 "256.0mb" ;
+                              
+                              :特性描述 "更小更轻薄，支持多种接口协议，速度更快" ;
+                              
+                              :容量 "256G" ;
+                              
+                              :型号 "KN380256SSD" ;
+                              
+                              :读写速度 "连续读取速度：500MB/秒，连续写入速度：200MB/秒" ;
+                              
+                              :工作温度 "0~70°C" ;
+                              
+                              :尺寸 "80.0" ;
+                              
+                              :闪存类型 "mlc" ;
+                              
+                              :规格尺寸 "null" ;
+                              
+                              :接口类型 "NGFF" ;
+                              
+                              :主控 :SMI ;
+                              
+                              :品牌 :金胜 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#铁修罗/TESORO
+
+<http://www.ecnu.ica.com/ditital#铁修罗/TESORO> rdf:type :品牌 ,
+                                                      owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#铁修罗TS-X4
+
+:铁修罗TS-X4 rdf:type :鼠标垫 ,
+                   owl:NamedIndividual ;
+          
+          :名称 "艾吉斯神盾" ;
+          
+          :其他特性 "高密度创新的3D纤维技术" ;
+          
+          :腕托 "无" ;
+          
+          :规格尺寸 "null" ;
+          
+          :种类 "布垫" ;
+          
+          :尺寸 "L370" ;
+          
+          :品牌 <http://www.ecnu.ica.com/ditital#铁修罗/TESORO> .
+
+
+
+###  http://www.ecnu.ica.com/ditital#长城
+
+:长城 rdf:type :品牌 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.ecnu.ica.com/ditital#长城BTX-800SP
+
+:长城BTX-800SP rdf:type :电源 ,
+                      owl:NamedIndividual ;
+             
+             :型号 "巨龙800SP（BTX-800SP）" ;
+             
+             :安全认证 "CCC认证" ;
+             
+             :风扇 "8M*2" ;
+             
+             :D型4pin接口 "4" ;
+             
+             :SATA接口 "1" ;
+             
+             :PFC "主动PFC" ;
+             
+             :峰值 "800W" ;
+             
+             :电源线长 "20000.0mm" ;
+             
+             :支持宽幅 "是" ;
+             
+             :效率 "83%" ;
+             
+             :规格尺寸 "null" ;
+             
+             :类型 "BTX" ;
+             
+             :特性描述 "适用于部门级服务器、VOD点播器、工业计算机等系统" ;
+             
+             :额定功率 "650W" ;
+             
+             :支持温控 "不支持" ;
+             
+             :重量 "3540.0g" ;
+             
+             :电源接口 "20+4" ;
+             
+             :输入电压 "90-264v" ;
+             
+             :尺寸 "150*170*86mm" ;
+             
+             :品牌 :长城 .
+
+
+
+###  http://www.ecnu.ica.com/ditital#闪迪酷轮（CZ58）
+
+:闪迪酷轮（CZ58） rdf:type :U盘 ,
+                     owl:NamedIndividual ;
+            
+            :独特设计 "360度旋转设计" ;
+            
+            :系列 "CZ58" ;
+            
+            :型号 "酷轮" ;
+            
+            :颜色 "[\"黑\"]" ;
+            
+            :LED指示灯 "不支持" ;
+            
+            :外壳材质 "塑料盘体" ;
+            
+            :尺寸 "35.17" ;
+            
+            :重量 "7.5g" ;
+            
+            :规格尺寸 "null" ;
+            
+            :容量 "32G" ;
+            
+            :品牌 :SanDisk .
+
+###  http://www.ecnu.ica.com/ditital#iPhone5
+
+:iPhone5 rdf:type :手机 ,
+                     owl:NamedIndividual ;
+            
+            :isA "手机" ;
+            :released 2013 ;
+            :price 3899 ;
+            :品牌 :Apple .
+
+###  http://www.ecnu.ica.com/ditital#Nexus5
+
+:Nexus5 rdf:type :手机 ,
+                     owl:NamedIndividual ;
+            
+            :isA "手机" ;
+            :released 2013 ;
+            :price 1800 ;
+            :品牌 :Google .
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :CPU
+                :SSD固态硬盘
+                :主板
+                :内存
+                <http://www.ecnu.ica.com/ditital#声卡/扩展卡>
+                :散热器
+                :显卡
+                :显示器
+                :机箱
+                :电源
+                :硬盘
+                :组装电脑
+                :网卡
+                :装机配件
+              )
+] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.ecnu.ica.com/ditital#4G3G上网卡>
+                :交换机
+                :网络存储
+                :网络盒子
+                :网络配件
+                :路由器
+              )
+] .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+

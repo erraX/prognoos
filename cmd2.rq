@@ -1,0 +1,15 @@
+PREFIX schema:<http://www.ecnu.ica.com/ditital#>
+
+SELECT ?x ?y
+WHERE {
+    ?x schema:isA "手机" .
+    ?y schema:isA "手机" .
+    ?x schema:released ?releasedA .
+    ?y schema:released ?releasedB .
+    ?x schema:price ?priceA .
+    ?y schema:price ?priceB .
+    FILTER( ?releasedA > 2012
+    && ?releasedB > 2012
+    && ( (0 < ?priceA - ?priceB < 1000)
+    || (0 < ?priceB - ?priceA < 1000) )
+    && str(?x) < str(?y) ) }

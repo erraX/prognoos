@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="dep/require.js" data-main='js/config.js'></script>
+    <link href='https://fonts.useso.com/css?family=Coda' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.useso.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="dep/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li class="current"><span>HOME</span></li><li><span>DEMO</span></li><li><span>TUTORIAL</span></li>
+        </ul>
+      </nav>
+      <section class="home tab current">
+        <div class="desc">
+          <h1> Prognoos </h1>
+          <h2> A knowledge base inference system </h2>
+        </div>
+        <div class="circle-group">
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+        </div>
+        
+        <div class="avatar">
+          <img src="/img/avatar.jpg" alt="">
+          <p>By<a href="https://github.com/erraX" target="_blank">@niminjie</a></p>
+          <p>
+            <a href="https://github.com/erraX" target="_blank">
+              <i class="fa fa-twitter fa-lg"></i>
+            </a>
+            <a href="https://github.com/erraX" target="_blank">
+              <i class="fa fa-github fa-lg"></i>
+            </a>
+            <a href="https://github.com/erraX" target="_blank">
+              <i class="fa fa-weibo fa-lg"></i>
+            </a>
+          </p>
+        </div>
+        <div class="connect"></div>
+        <div class="intro">
+          <p>
+            With the development of the Internet, and the information, the propose of ontology, algorithm plays important role to expand the knowledge base and ontology. How to use prediction algorithms to help us extending, completing, improving knowledge base is a research trend.
+          </p>
+          <p>
+            Ontology can describe knowledge base, entities and relations in ontology can build up a complete network, but data mining in the ontology is inefficient and has low prediction rate. So It is important to prediction relation in ontology. In this research, we put great emphasis on prediction relation in complex network.
+          </p>
+          </p>
+          <p>
+            We design and implement a relation prediction system. This system could predict relation between two entities and make rule inference. In the backend, template engine we designed can convert rules to SPARQL.
+          </p>
+        </div>
+
+        <div id="start-prognoos" class="start-btn">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="text" id="start">Start!</div>
+        </div>
+      </section>
+
+      <section class="demo tab">
+        <div class="desc">
+          <h1>Link Prediction</h1>
+          <h2>Input two eneity name, and you can prediction the relation between two entity</h2>
+        </div>
+
+        <div>
+          <input id="ipt-entA" type="text" class="ipt lp-ipt" value="iPhone5">
+          <input id="ipt-entB" type="text" class="ipt lp-ipt" value="Nexus5">
+          <button class="btn" id="start-lp">START</button>
+          <button class="btn clear-btn" id="clear-lp">CLEAR</button>
+        </div>
+
+        <div class="circle-group">
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+        </div>
+
+        <table id="lp-result">
+        </table>
+
+        <div class="desc">
+          <h1>Rule inference</h1>
+          <h2>Input two eneity name, and you can prediction the relation between two entity</h2>
+        </div>
+
+        <div class="step step-one">
+          Step one: Binding variables
+          <div class="horizon-split"></div>
+          <div class="horizon-split"></div>
+        </div>
+
+        <table id="step-one-table">
+          <tr>
+            <td>SUBJECT</td>
+            <td>PROPERTY</td>
+            <td>SUBJECT</td>
+          </tr>
+          <tr class="space">
+            <td><input type="text" class="ipt rule-ipt" value="?x"></td>
+            <td><input type="text" class="ipt rule-ipt" value="isA"></td>
+            <td><input type="text" class="ipt rule-ipt" value="手机"></td>
+          </tr>
+          <tr class="space">
+            <td><input type="text" class="ipt rule-ipt" value="?y"></td>
+            <td><input type="text" class="ipt rule-ipt" value="isA"></td>
+            <td><input type="text" class="ipt rule-ipt" value="手机"></td>
+          </tr>
+        </table>
+
+        <div class="step step-two">
+          Step two: Data restrain
+          <div class="horizon-split"></div>
+          <div class="horizon-split"></div>
+        </div>
+
+        <table id="step-two-table">
+          <tr>
+            <td>SUBJECT</td>
+            <td>PROPERTY</td>
+            <td>FUNCTION</td>
+            <td>SUBJECT</td>
+          </tr>
+          <tr class="space">
+            <td><input type="text" class="ipt rule-ipt" value="?x"></td>
+            <td><input type="text" class="ipt rule-ipt" value="released"></td>
+            <td><input type="text" class="ipt rule-ipt" value=">"></td>
+            <td><input type="text" class="ipt rule-ipt" value="2012"></td>
+          </tr>
+          <tr class="space">
+            <td><input type="text" class="ipt rule-ipt" value="?y"></td>
+            <td><input type="text" class="ipt rule-ipt" value="released"></td>
+            <td><input type="text" class="ipt rule-ipt" value=">"></td>
+            <td><input type="text" class="ipt rule-ipt" value="2012"></td>
+          </tr>
+        </table>
+
+        <div class="step step-three">
+          Step three: Entity restrain
+          <div class="horizon-split"></div>
+          <div class="horizon-split"></div>
+        </div>
+        <table id="step-three-table">
+          <tr>
+            <td>SUBJECT</td>
+            <td>PROPERTY</td>
+            <td>FUNCTION</td>
+            <td>SUBJECT</td>
+          </tr>
+          <tr>
+            <td><input type="text" class="ipt rule-ipt" value="?x,?y"></td>
+            <td><input type="text" class="ipt rule-ipt" value="price"></td>
+            <td><input type="text" class="ipt rule-ipt" value="difference"></td>
+            <td><input type="text" class="ipt rule-ipt" value="1000"></td>
+          </tr>
+        </table>
+
+        <div class="step step-four">
+          Step four: Defien results
+          <div class="horizon-split"></div>
+          <div class="horizon-split"></div>
+        </div>
+        <table id="step-four-table">
+          <tr>
+            <td>SUBJECT</td>
+            <td>PROPERTY</td>
+            <td>SUBJECT</td>
+          </tr>
+          <tr>
+            <td><input type="text" class="ipt rule-ipt" value="?x"></td>
+            <td><input type="text" class="ipt rule-ipt" value="isContentantOf"></td>
+            <td><input type="text" class="ipt rule-ipt" value="?y"></td>
+          </tr>
+        </table>
+        <button id="start-rule" class="btn">START</button>
+        <button id="clear-rule" class="btn clear-btn">CLEAR</button>
+
+        <div class="scroll-wrapper">
+          <table id="infer-result" class="rule-result">
+          </table>
+        </div>
+      </section>
+      <section class="tutorial tab">
+        <div class="desc">
+          <h1>Tutorial</h1>
+        </div>
+
+        <div class="circle-group">
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+          <div class="bg-circle"></div>
+        </div>
+        
+        <p class="quote">
+          Prognoos的关系预测算法融合了两种算法：
+          <ul>
+            <li>1. 张量分解方法(RESCAL)</li>
+            <li>2. 特征词向量(TransE)</li>
+          </ul>
+        </p>
+        <h2>功能一：实体关系预测</h2>
+        <p>
+            输入两个实体的名称A和B，预测A和B之间关系
+        </p>
+        <h2>功能二：实体关系规则推理</h2>
+        <p>
+            输入一阶逻辑推理的规则，进行关系推理 
+            规则语法：
+            SUBJECT: ?开头，代表变量。(一般写在左边一个SUBJECT)目前只支持两个变量，即两个实体进行推理
+            PROPERTY: 代表关系
+            FUNCTION: 基本的值运算符，包括：>,>=.<,<=,==，difference
+
+            STEP ONE:
+            输入需要推理的两个实体，一般用?x,?y表示。
+            然后输入这两个实体的具有的分类关系约束。比如?x isA 手机，代表推理所有是手机的实体?x
+
+            STEP TWO:
+            输入两个实体的值关系约束。比如?x released > 2012 代表
+            
+        </p>
+      </section>
+    </div>
+    <footer>
+    </footer>
+  </body>
+</html>

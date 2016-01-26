@@ -1,0 +1,6 @@
+PREFIX schema:<http://www.ecnu.ica.com/ditital#>
+
+SELECT ?rel
+WHERE {
+    schema:长城BTX-800SP ?rel "CCC认证" .
+}
